@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lab2a
+comment0.text=\r\n\ Lab2a.java\r\n\r\n\ Authors\:\ Samantha\ Smith,\ Martin\ Lillo\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=F
+comment2.target=double\ kelvins(double)
+comment3.params=F\ K
+comment3.target=void\ temperaturePrinter(double,\ double)
+comment4.params=args
+comment4.target=void\ main2(java.lang.String[])
+comment5.params=seconds
+comment5.target=void\ secondTime(int)
+comment6.params=hh\ mm\ ss
+comment6.target=void\ inSeconds(int,\ int,\ int)
+numComments=7

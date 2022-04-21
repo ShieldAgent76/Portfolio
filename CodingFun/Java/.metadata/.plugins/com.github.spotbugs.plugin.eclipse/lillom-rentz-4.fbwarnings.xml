@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="39" timestamp="1614320159728" analysisTimestamp="1614320158763" release="">
+  <Project projectName="lillom-rentz-4">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-4\bin\model\RentalManager.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-4\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-4\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="model.Registration">
+      <SourceLine classname="model.Registration" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    </Class>
+    <Method classname="model.Registration" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="model.Registration" start="36" end="41" startBytecode="0" endBytecode="49" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="model.Registration" start="36" end="36" startBytecode="7" endBytecode="7" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    <SourceLine classname="model.Registration" start="36" end="36" startBytecode="7" endBytecode="7" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="13">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Method classname="model.RentalManager" name="rent" signature="(ILjava/lang/String;II)Z" isStatic="false">
+      <SourceLine classname="model.RentalManager" start="169" end="188" startBytecode="0" endBytecode="344" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Method>
+    <Method classname="java.util.Map" name="get" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Map" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Method>
+    <SourceLine classname="model.RentalManager" start="181" end="181" startBytecode="79" endBytecode="79" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    <SourceLine classname="model.RentalManager" start="181" end="181" startBytecode="79" endBytecode="79" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="20">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="myStars" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="52" end="52" startBytecode="30" endBytecode="30" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="18">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="myThankMessage" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="42" end="42" startBytecode="18" endBytecode="18" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="18">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="myVehiclesAvailable" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="47" end="47" startBytecode="24" endBytecode="24" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="17" last="17" removedByChange="true">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="thankMessage" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="41" end="41" startBytecode="18" endBytecode="18" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="17" last="17" removedByChange="true">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="vehiclesAvailable" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="46" end="46" startBytecode="24" endBytecode="24" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Method classname="model.vehicles.AbstractVehicle" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Z)V" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" start="52" end="57" startBytecode="0" endBytecode="124" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Method>
+    <Field classname="model.vehicles.AbstractVehicle" name="defaultID" signature="I" isStatic="true">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="53" end="53" startBytecode="11" endBytecode="11" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="53" end="53" startBytecode="11" endBytecode="11" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="utility.FileLoader">
+      <SourceLine classname="utility.FileLoader" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Class>
+    <Method classname="utility.FileLoader" name="readItemsFromFile" signature="(Ljava/lang/String;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="utility.FileLoader" start="43" end="61" startBytecode="0" endBytecode="504" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="75" end="76" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="utility.FileLoader" start="46" end="46" startBytecode="41" endBytecode="41" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    <SourceLine classname="utility.FileLoader" start="46" end="46" startBytecode="41" endBytecode="41" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 25 Feb 2021 22:15:58 -0800" total_classes="1" referenced_classes="40" total_bugs="7" total_size="173" num_packages="3" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.75" clock_seconds="0.97" peak_mbytes="782.39" alloc_mbytes="2048.00" gc_seconds="0.03" priority_2="5" priority_1="2">
+    <PackageStats package="model" total_bugs="5" total_types="2" total_size="173" priority_2="4" priority_1="1">
+      <ClassStats class="model.RentalManager" sourceFile="RentalManager.java" interface="false" size="173" bugs="4" priority_2="4"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="177" invocations="530" avgMicrosecondsPerInvocation="334" maxMicrosecondsPerInvocation="30776" standardDeviationMicrosecondsPerInvocation="1426"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="131" invocations="2" avgMicrosecondsPerInvocation="65980" maxMicrosecondsPerInvocation="121080" standardDeviationMicrosecondsPerInvocation="55100"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="79" invocations="531" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="835" standardDeviationMicrosecondsPerInvocation="79"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="52" invocations="40" avgMicrosecondsPerInvocation="1322" maxMicrosecondsPerInvocation="10556" standardDeviationMicrosecondsPerInvocation="2209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SerializableIdiom" totalMilliseconds="44" invocations="1" avgMicrosecondsPerInvocation="44763" maxMicrosecondsPerInvocation="44763" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="31" invocations="167" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="2126" standardDeviationMicrosecondsPerInvocation="246"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="31" invocations="40" avgMicrosecondsPerInvocation="786" maxMicrosecondsPerInvocation="5837" standardDeviationMicrosecondsPerInvocation="1171"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="26" invocations="34" avgMicrosecondsPerInvocation="792" maxMicrosecondsPerInvocation="12029" standardDeviationMicrosecondsPerInvocation="2092"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="25" invocations="1" avgMicrosecondsPerInvocation="25886" maxMicrosecondsPerInvocation="25886" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="21" invocations="493" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="1186" standardDeviationMicrosecondsPerInvocation="84"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="20" invocations="1" avgMicrosecondsPerInvocation="20365" maxMicrosecondsPerInvocation="20365" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop" totalMilliseconds="19" invocations="1" avgMicrosecondsPerInvocation="19992" maxMicrosecondsPerInvocation="19992" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="18" invocations="40" avgMicrosecondsPerInvocation="473" maxMicrosecondsPerInvocation="5951" standardDeviationMicrosecondsPerInvocation="1003"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="14" invocations="40" avgMicrosecondsPerInvocation="350" maxMicrosecondsPerInvocation="3374" standardDeviationMicrosecondsPerInvocation="597"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="12" invocations="40" avgMicrosecondsPerInvocation="318" maxMicrosecondsPerInvocation="3864" standardDeviationMicrosecondsPerInvocation="642"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="12" invocations="67" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="1662" standardDeviationMicrosecondsPerInvocation="304"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614144872326" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1614144872330" release="" codeSize="675" numClasses="17"/>
+    <AppVersion sequence="2" timestamp="1614145090037" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1614146267945" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1614146272326" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1614146315940" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1614146337024" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1614146381977" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1614232999131" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1614233014417" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1614233048397" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1614233918420" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1614233930744" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1614234837831" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1614234867337" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1614234884128" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1614311430359" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1614315386575" release="" codeSize="89" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1614315601654" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1614315676945" release="" codeSize="97" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1614315953516" release="" codeSize="121" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1614316036867" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1614316165305" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1614316239096" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1614316248535" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1614316333822" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1614316368557" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1614316409045" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1614316511963" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1614316664587" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1614316740446" release="" codeSize="168" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1614316782332" release="" codeSize="166" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1614316911397" release="" codeSize="168" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1614319329323" release="" codeSize="166" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1614319426056" release="" codeSize="166" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1614319501268" release="" codeSize="166" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1614319516374" release="" codeSize="166" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1614319888199" release="" codeSize="181" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1614320076620" release="" codeSize="173" numClasses="1"/>
+  </History>
+</BugCollection>

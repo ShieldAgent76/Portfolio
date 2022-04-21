@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1610064991479" analysisTimestamp="1610064983464" release="">
+  <Project projectName="username-rentz-0">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\username-rentz-0\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\username-rentz-0\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\username-rentz-0\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 7 Jan 2021 16:16:21 -0800" total_classes="4" referenced_classes="18" total_bugs="0" total_size="39" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="17.80" clock_seconds="8.02" peak_mbytes="783.43" alloc_mbytes="2048.00" gc_seconds="0.11">
+    <PackageStats package="model" total_bugs="0" total_types="3" total_size="30">
+      <ClassStats class="model.Registration" sourceFile="Registration.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="model.RentalMain" sourceFile="RentalMain.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="model.User" sourceFile="User.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="utility" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="utility.FileLoader" sourceFile="FileLoader.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="5511" invocations="2" avgMicrosecondsPerInvocation="2755797" maxMicrosecondsPerInvocation="5148821" standardDeviationMicrosecondsPerInvocation="2393023"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="869" invocations="354" avgMicrosecondsPerInvocation="2457" maxMicrosecondsPerInvocation="63396" standardDeviationMicrosecondsPerInvocation="5936"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1610064991472" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

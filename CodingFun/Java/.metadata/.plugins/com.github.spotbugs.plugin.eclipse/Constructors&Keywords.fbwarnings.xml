@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="3" timestamp="1610391040931" analysisTimestamp="1610391039617" release="">
+  <Project projectName="Constructors&amp;Keywords">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Constructors&amp;Keywords.zip_expanded\Constructors&amp;Keywords\bin\exercises\Point.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Constructors&amp;Keywords.zip_expanded\Constructors&amp;Keywords\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Constructors&amp;Keywords.zip_expanded\Constructors&amp;Keywords\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="constructors.Circle">
+      <SourceLine classname="constructors.Circle" sourcefile="Circle.java" sourcepath="constructors/Circle.java"/>
+    </Class>
+    <Method classname="constructors.Circle" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="constructors.Circle" start="19" end="22" startBytecode="0" endBytecode="4" sourcefile="Circle.java" sourcepath="constructors/Circle.java"/>
+    </Method>
+    <LocalVariable name="c" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="constructors.Circle" start="19" end="19" startBytecode="7" endBytecode="7" sourcefile="Circle.java" sourcepath="constructors/Circle.java"/>
+    <SourceLine classname="constructors.Circle" start="19" end="19" startBytecode="7" endBytecode="7" sourcefile="Circle.java" sourcepath="constructors/Circle.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="c"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="constructors.HelloWorldChild">
+      <SourceLine classname="constructors.HelloWorldChild" sourcefile="HelloWorldChild.java" sourcepath="constructors/HelloWorldChild.java"/>
+    </Class>
+    <Field classname="constructors.HelloWorldChild" name="myChildVar" signature="C" isStatic="false">
+      <SourceLine classname="constructors.HelloWorldChild" sourcefile="HelloWorldChild.java" sourcepath="constructors/HelloWorldChild.java"/>
+    </Field>
+    <SourceLine classname="constructors.HelloWorldChild" start="17" end="17" startBytecode="8" endBytecode="8" sourcefile="HelloWorldChild.java" sourcepath="constructors/HelloWorldChild.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1" last="1" removedByChange="true">
+    <Class classname="finalkeyword.Point">
+      <SourceLine classname="finalkeyword.Point" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    </Class>
+    <Method classname="finalkeyword.Point" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="finalkeyword.Point" start="70" end="74" startBytecode="0" endBytecode="6" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    </Method>
+    <LocalVariable name="p" register="1" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="finalkeyword.Point" start="70" end="70" startBytecode="9" endBytecode="9" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    <SourceLine classname="finalkeyword.Point" start="70" end="70" startBytecode="9" endBytecode="9" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="p"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1" last="1" removedByChange="true">
+    <Class classname="finalkeyword.Point">
+      <SourceLine classname="finalkeyword.Point" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    </Class>
+    <Field classname="finalkeyword.Point" name="myDEFAULTX" signature="I" isStatic="false">
+      <SourceLine classname="finalkeyword.Point" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    </Field>
+    <SourceLine classname="finalkeyword.Point" start="30" end="30" startBytecode="6" endBytecode="6" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1" last="1" removedByChange="true">
+    <Class classname="finalkeyword.Point">
+      <SourceLine classname="finalkeyword.Point" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    </Class>
+    <Field classname="finalkeyword.Point" name="myDEFAULTY" signature="I" isStatic="false">
+      <SourceLine classname="finalkeyword.Point" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+    </Field>
+    <SourceLine classname="finalkeyword.Point" start="35" end="35" startBytecode="11" endBytecode="11" sourcefile="Point.java" sourcepath="finalkeyword/Point.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 11 Jan 2021 10:50:39 -0800" total_classes="1" referenced_classes="14" total_bugs="2" total_size="44" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.14" clock_seconds="1.32" peak_mbytes="488.79" alloc_mbytes="2048.00" gc_seconds="0.02" priority_2="1" priority_1="1">
+    <PackageStats package="exercises" total_bugs="0" total_types="1" total_size="44">
+      <ClassStats class="exercises.Point" sourceFile="Point.java" interface="false" size="44" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="440" invocations="357" avgMicrosecondsPerInvocation="1234" maxMicrosecondsPerInvocation="16876" standardDeviationMicrosecondsPerInvocation="2357"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="231" invocations="2" avgMicrosecondsPerInvocation="115868" maxMicrosecondsPerInvocation="209493" standardDeviationMicrosecondsPerInvocation="93625"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="191" invocations="358" avgMicrosecondsPerInvocation="535" maxMicrosecondsPerInvocation="35244" standardDeviationMicrosecondsPerInvocation="2802"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="65" invocations="54" avgMicrosecondsPerInvocation="1213" maxMicrosecondsPerInvocation="27710" standardDeviationMicrosecondsPerInvocation="3998"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1610145160351" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1610145160352" release="" codeSize="143" numClasses="7"/>
+    <AppVersion sequence="2" timestamp="1610145791387" release="" codeSize="42" numClasses="1"/>
+  </History>
+</BugCollection>

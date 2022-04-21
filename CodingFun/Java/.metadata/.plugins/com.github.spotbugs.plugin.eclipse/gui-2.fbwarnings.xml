@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="53" timestamp="1614836408034" analysisTimestamp="1614836404617" release="">
+  <Project projectName="gui-2">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui-2\bin\layouts\FlowLayoutDemoAsFrame$1.class</Jar>
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui-2\bin\layouts\FlowLayoutDemoAsFrame.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui-2\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui-2\src</SrcDir>
+  </Project>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="34" last="34" removedByChange="true">
+    <Class classname="exercises.Composite">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Class>
+    <Method classname="exercises.Composite" name="setUpComponents" signature="()V" isStatic="false">
+      <SourceLine classname="exercises.Composite" start="48" end="58" startBytecode="0" endBytecode="139" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Method>
+    <Field classname="exercises.Composite" name="myButtons" signature="Llayouts/FlowLayoutDemoAsPanel;" isStatic="false">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Field>
+    <SourceLine classname="exercises.Composite" start="56" end="56" startBytecode="46" endBytecode="46" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    <SourceLine classname="exercises.Composite" start="56" end="56" startBytecode="46" endBytecode="46" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="34" last="34" removedByChange="true">
+    <Class classname="exercises.Composite">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Class>
+    <Method classname="exercises.Composite" name="setUpComponents" signature="()V" isStatic="false">
+      <SourceLine classname="exercises.Composite" start="48" end="58" startBytecode="0" endBytecode="139" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Method>
+    <Field classname="exercises.Composite" name="myKeypad" signature="Llayouts/GridLayoutDemo;" isStatic="false">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Field>
+    <SourceLine classname="exercises.Composite" start="52" end="52" startBytecode="23" endBytecode="23" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    <SourceLine classname="exercises.Composite" start="52" end="52" startBytecode="23" endBytecode="23" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="34" last="34" removedByChange="true">
+    <Class classname="exercises.Composite">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Class>
+    <Field classname="exercises.Composite" name="myButtons" signature="Llayouts/FlowLayoutDemoAsPanel;" isStatic="false">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Field>
+    <SourceLine classname="exercises.Composite" start="56" end="56" startBytecode="43" endBytecode="43" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="34" last="34" removedByChange="true">
+    <Class classname="exercises.Composite">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Class>
+    <Field classname="exercises.Composite" name="myKeypad" signature="Llayouts/GridLayoutDemo;" isStatic="false">
+      <SourceLine classname="exercises.Composite" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+    </Field>
+    <SourceLine classname="exercises.Composite" start="52" end="52" startBytecode="20" endBytecode="20" sourcefile="Composite.java" sourcepath="exercises/Composite.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="13" last="19" removedByChange="true">
+    <Class classname="exercises.Flow">
+      <SourceLine classname="exercises.Flow" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Class>
+    <Method classname="exercises.Flow" name="start" signature="()V" isStatic="false">
+      <SourceLine classname="exercises.Flow" start="61" end="68" startBytecode="0" endBytecode="144" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Method>
+    <Field classname="exercises.Flow" name="myButtonLabels" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="exercises.Flow" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Field>
+    <SourceLine classname="exercises.Flow" start="65" end="65" startBytecode="24" endBytecode="24" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    <SourceLine classname="exercises.Flow" start="65" end="65" startBytecode="24" endBytecode="24" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="exercises.Flow">
+      <SourceLine classname="exercises.Flow" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Class>
+    <Field classname="exercises.Flow" name="myButtonLabels" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="exercises.Flow" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="exercises.Flow">
+      <SourceLine classname="exercises.Flow" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Class>
+    <Field classname="exercises.Flow" name="myNumberOfButtons" signature="I" isStatic="false">
+      <SourceLine classname="exercises.Flow" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="13" last="19" removedByChange="true">
+    <Class classname="exercises.Flow">
+      <SourceLine classname="exercises.Flow" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Class>
+    <Field classname="exercises.Flow" name="myButtonLabels" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="exercises.Flow" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+    </Field>
+    <SourceLine classname="exercises.Flow" start="65" end="65" startBytecode="20" endBytecode="20" sourcefile="Flow.java" sourcepath="exercises/Flow.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1" last="10" removedByChange="true">
+    <Class classname="layouts.FlowLayoutDemoAsPanel$1">
+      <SourceLine classname="layouts.FlowLayoutDemoAsPanel$1" sourcefile="FlowLayoutDemoAsPanel.java" sourcepath="layouts/FlowLayoutDemoAsPanel.java"/>
+    </Class>
+    <Method classname="layouts.FlowLayoutDemoAsPanel$1" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="layouts.FlowLayoutDemoAsPanel$1" start="82" end="95" startBytecode="0" endBytecode="28" sourcefile="FlowLayoutDemoAsPanel.java" sourcepath="layouts/FlowLayoutDemoAsPanel.java"/>
+    </Method>
+    <LocalVariable name="frameSize" register="2" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="layouts.FlowLayoutDemoAsPanel$1" start="86" end="86" startBytecode="25" endBytecode="25" sourcefile="FlowLayoutDemoAsPanel.java" sourcepath="layouts/FlowLayoutDemoAsPanel.java"/>
+    <SourceLine classname="layouts.FlowLayoutDemoAsPanel$1" start="86" end="86" startBytecode="25" endBytecode="25" sourcefile="FlowLayoutDemoAsPanel.java" sourcepath="layouts/FlowLayoutDemoAsPanel.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="frameSize"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Mar 2021 21:40:04 -0800" total_classes="2" referenced_classes="284" total_bugs="0" total_size="28" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="11.36" clock_seconds="3.43" peak_mbytes="1038.84" alloc_mbytes="2048.00" gc_seconds="0.11">
+    <PackageStats package="layouts" total_bugs="0" total_types="2" total_size="28">
+      <ClassStats class="layouts.FlowLayoutDemoAsFrame" sourceFile="FlowLayoutDemoAsFrame.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="layouts.FlowLayoutDemoAsFrame$1" sourceFile="FlowLayoutDemoAsFrame.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="634" invocations="1521" avgMicrosecondsPerInvocation="417" maxMicrosecondsPerInvocation="24905" standardDeviationMicrosecondsPerInvocation="1219"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="467" invocations="284" avgMicrosecondsPerInvocation="1646" maxMicrosecondsPerInvocation="54223" standardDeviationMicrosecondsPerInvocation="4697"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="404" invocations="1525" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="42172" standardDeviationMicrosecondsPerInvocation="1090"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="393" invocations="284" avgMicrosecondsPerInvocation="1386" maxMicrosecondsPerInvocation="24414" standardDeviationMicrosecondsPerInvocation="3171"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="274" invocations="2" avgMicrosecondsPerInvocation="137228" maxMicrosecondsPerInvocation="178470" standardDeviationMicrosecondsPerInvocation="41242"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="225" invocations="627" avgMicrosecondsPerInvocation="360" maxMicrosecondsPerInvocation="23043" standardDeviationMicrosecondsPerInvocation="988"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="143" invocations="284" avgMicrosecondsPerInvocation="505" maxMicrosecondsPerInvocation="74685" standardDeviationMicrosecondsPerInvocation="4434"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614123990365" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1614123990365" release="" codeSize="225" numClasses="16"/>
+    <AppVersion sequence="2" timestamp="1614125219224" release="" codeSize="35" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1614125227564" release="" codeSize="35" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1614125267197" release="" codeSize="22" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1614125277304" release="" codeSize="37" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1614125289028" release="" codeSize="36" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1614125294724" release="" codeSize="37" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1614125347846" release="" codeSize="39" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1614125383905" release="" codeSize="39" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1614127609050" release="" codeSize="41" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1614127622150" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1614127874902" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1614127884300" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1614127923918" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="15" timestamp="1614127935259" release="" codeSize="22" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1614127953058" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="17" timestamp="1614127963904" release="" codeSize="39" numClasses="2"/>
+    <AppVersion sequence="18" timestamp="1614128027350" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="19" timestamp="1614128055347" release="" codeSize="22" numClasses="2"/>
+    <AppVersion sequence="20" timestamp="1614128080664" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="21" timestamp="1614128177807" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="22" timestamp="1614128187949" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="23" timestamp="1614128970740" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1614128980790" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="25" timestamp="1614129008497" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="26" timestamp="1614129116986" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="27" timestamp="1614129255871" release="" codeSize="34" numClasses="2"/>
+    <AppVersion sequence="28" timestamp="1614129261327" release="" codeSize="34" numClasses="2"/>
+    <AppVersion sequence="29" timestamp="1614129302829" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="30" timestamp="1614297321346" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1614297696906" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="32" timestamp="1614297710299" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="33" timestamp="1614297716254" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="34" timestamp="1614298317576" release="" codeSize="29" numClasses="2"/>
+    <AppVersion sequence="35" timestamp="1614298352796" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="36" timestamp="1614405572144" release="" codeSize="33" numClasses="2"/>
+    <AppVersion sequence="37" timestamp="1614405613869" release="" codeSize="33" numClasses="2"/>
+    <AppVersion sequence="38" timestamp="1614405697924" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="39" timestamp="1614405717414" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="40" timestamp="1614406189579" release="" codeSize="15" numClasses="2"/>
+    <AppVersion sequence="41" timestamp="1614406562292" release="" codeSize="16" numClasses="2"/>
+    <AppVersion sequence="42" timestamp="1614406588069" release="" codeSize="27" numClasses="2"/>
+    <AppVersion sequence="43" timestamp="1614406619964" release="" codeSize="26" numClasses="2"/>
+    <AppVersion sequence="44" timestamp="1614406709263" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="45" timestamp="1614406822168" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="46" timestamp="1614406841846" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="47" timestamp="1614406879772" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="48" timestamp="1614406897983" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="49" timestamp="1614406908619" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="50" timestamp="1614406919210" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="51" timestamp="1614406925510" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="52" timestamp="1614407725350" release="" codeSize="32" numClasses="2"/>
+  </History>
+</BugCollection>

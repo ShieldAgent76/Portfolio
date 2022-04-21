@@ -1,0 +1,7 @@
+Functional Decomposition (decomposing the program into blocks)
+For loops
+Nested loops
+Branching Statements (if-else)
+1 dimensional arrays
+Test Method
+Comments and documentation

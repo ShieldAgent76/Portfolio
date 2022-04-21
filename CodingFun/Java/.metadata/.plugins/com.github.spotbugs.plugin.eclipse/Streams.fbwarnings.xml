@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="20" timestamp="1615873211746" analysisTimestamp="1615873210126" release="">
+  <Project projectName="Streams">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Streams\bin\exercisesStreams\StreamCExercise.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Streams\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Streams\src</SrcDir>
+  </Project>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="4">
+    <Class classname="exercisesStreams.StreamAExercise">
+      <SourceLine classname="exercisesStreams.StreamAExercise" sourcefile="StreamAExercise.java" sourcepath="exercisesStreams/StreamAExercise.java"/>
+    </Class>
+    <Method classname="exercisesStreams.StreamAExercise" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercisesStreams.StreamAExercise" start="61" end="65" startBytecode="0" endBytecode="96" sourcefile="StreamAExercise.java" sourcepath="exercisesStreams/StreamAExercise.java"/>
+    </Method>
+    <Method classname="exercisesStreams.StreamAExercise" name="createStream1" signature="(Ljava/util/List;)Ljava/util/stream/Stream;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="exercisesStreams.StreamAExercise" start="30" end="31" startBytecode="0" endBytecode="102" sourcefile="StreamAExercise.java" sourcepath="exercisesStreams/StreamAExercise.java"/>
+    </Method>
+    <SourceLine classname="exercisesStreams.StreamAExercise" start="62" end="62" startBytecode="16" endBytecode="16" sourcefile="StreamAExercise.java" sourcepath="exercisesStreams/StreamAExercise.java"/>
+    <SourceLine classname="exercisesStreams.StreamAExercise" start="62" end="62" startBytecode="16" endBytecode="16" sourcefile="StreamAExercise.java" sourcepath="exercisesStreams/StreamAExercise.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamA">
+      <SourceLine classname="streamcreation.StreamA" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamA" name="createEmptyStream" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamA" start="27" end="28" startBytecode="0" endBytecode="2" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Method>
+    <LocalVariable name="streamEmpty" register="1" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="streamcreation.StreamA" start="27" end="27" startBytecode="3" endBytecode="3" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <SourceLine classname="streamcreation.StreamA" start="27" end="27" startBytecode="3" endBytecode="3" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="streamEmpty"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamA">
+      <SourceLine classname="streamcreation.StreamA" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamA" name="createStreamFromArray" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamA" start="36" end="42" startBytecode="0" endBytecode="26" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Method>
+    <LocalVariable name="strStream" register="2" pc="38" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="streamcreation.StreamA" start="40" end="40" startBytecode="37" endBytecode="37" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <SourceLine classname="streamcreation.StreamA" start="40" end="40" startBytecode="37" endBytecode="37" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="strStream"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamA">
+      <SourceLine classname="streamcreation.StreamA" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamA" name="createStreamFromBuilder" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamA" start="61" end="62" startBytecode="0" endBytecode="7" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Method>
+    <LocalVariable name="streambuilder" register="1" pc="23" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="streamcreation.StreamA" start="61" end="61" startBytecode="22" endBytecode="22" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <SourceLine classname="streamcreation.StreamA" start="61" end="61" startBytecode="22" endBytecode="22" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="streambuilder"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamA">
+      <SourceLine classname="streamcreation.StreamA" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamA" name="createStreamFromList" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamA" start="48" end="54" startBytecode="0" endBytecode="22" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Method>
+    <LocalVariable name="integerStream" register="2" pc="49" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="streamcreation.StreamA" start="53" end="53" startBytecode="48" endBytecode="48" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <SourceLine classname="streamcreation.StreamA" start="53" end="53" startBytecode="48" endBytecode="48" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="integerStream"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_VOID_METHOD" priority="1" rank="15" abbrev="UC" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamA">
+      <SourceLine classname="streamcreation.StreamA" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamA" name="createStreamFromList" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamA" start="48" end="54" startBytecode="0" endBytecode="159" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    </Method>
+    <SourceLine classname="streamcreation.StreamA" start="54" end="54" startBytecode="49" endBytecode="49" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+    <SourceLine classname="streamcreation.StreamA" start="54" end="54" startBytecode="49" endBytecode="49" sourcefile="StreamA.java" sourcepath="streamcreation/StreamA.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamB">
+      <SourceLine classname="streamcreation.StreamB" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamB" name="collectOPeration" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamB" start="102" end="105" startBytecode="0" endBytecode="9" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    </Method>
+    <LocalVariable name="strglistPipeline" register="1" pc="31" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="streamcreation.StreamB" start="102" end="102" startBytecode="30" endBytecode="30" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    <SourceLine classname="streamcreation.StreamB" start="102" end="102" startBytecode="30" endBytecode="30" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="strglistPipeline"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="streamcreation.StreamB">
+      <SourceLine classname="streamcreation.StreamB" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    </Class>
+    <Method classname="streamcreation.StreamB" name="mapOperation" signature="()V" isStatic="false">
+      <SourceLine classname="streamcreation.StreamB" start="36" end="48" startBytecode="0" endBytecode="22" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    </Method>
+    <LocalVariable name="strglist" register="2" pc="28" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="streamcreation.StreamB" start="38" end="38" startBytecode="27" endBytecode="27" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    <SourceLine classname="streamcreation.StreamB" start="38" end="38" startBytecode="27" endBytecode="27" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="strglist"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="streamcreation.StreamB">
+      <SourceLine classname="streamcreation.StreamB" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    </Class>
+    <Field classname="streamcreation.StreamB" name="parallelStream" signature="Ljava/util/stream/Stream;" isStatic="false">
+      <SourceLine classname="streamcreation.StreamB" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+    </Field>
+    <SourceLine classname="streamcreation.StreamB" start="27" end="27" startBytecode="53" endBytecode="53" sourcefile="StreamB.java" sourcepath="streamcreation/StreamB.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 15 Mar 2021 22:40:10 -0700" total_classes="1" referenced_classes="26" total_bugs="9" total_size="29" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="5.22" clock_seconds="1.63" peak_mbytes="521.90" alloc_mbytes="2048.00" gc_seconds="0.08" priority_2="8" priority_1="1">
+    <PackageStats package="exercisesStreams" total_bugs="1" total_types="2" total_size="29" priority_2="1">
+      <ClassStats class="exercisesStreams.StreamCExercise" sourceFile="StreamCExercise.java" interface="false" size="29" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="491" invocations="485" avgMicrosecondsPerInvocation="1013" maxMicrosecondsPerInvocation="101237" standardDeviationMicrosecondsPerInvocation="5890"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="289" invocations="2" avgMicrosecondsPerInvocation="144987" maxMicrosecondsPerInvocation="245354" standardDeviationMicrosecondsPerInvocation="100366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="132" invocations="486" avgMicrosecondsPerInvocation="272" maxMicrosecondsPerInvocation="4328" standardDeviationMicrosecondsPerInvocation="279"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="78" invocations="26" avgMicrosecondsPerInvocation="3027" maxMicrosecondsPerInvocation="20658" standardDeviationMicrosecondsPerInvocation="4377"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="64" invocations="26" avgMicrosecondsPerInvocation="2480" maxMicrosecondsPerInvocation="12726" standardDeviationMicrosecondsPerInvocation="3377"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="46" invocations="447" avgMicrosecondsPerInvocation="105" maxMicrosecondsPerInvocation="3240" standardDeviationMicrosecondsPerInvocation="257"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="45" invocations="26" avgMicrosecondsPerInvocation="1763" maxMicrosecondsPerInvocation="29483" standardDeviationMicrosecondsPerInvocation="5584"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="44" invocations="104" avgMicrosecondsPerInvocation="430" maxMicrosecondsPerInvocation="4240" standardDeviationMicrosecondsPerInvocation="607"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1615508224123" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1615508224123" release="" codeSize="163" numClasses="6"/>
+    <AppVersion sequence="2" timestamp="1615509011495" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1615526465071" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1615764661186" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1615764736943" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1615765256275" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1615765417415" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1615765424355" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1615765446097" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1615765464688" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1615765906829" release="" codeSize="61" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1615765909406" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1615776245479" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1615776381143" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1615776399374" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1615776725520" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1615777268899" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1615873151908" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1615873163819" release="" codeSize="29" numClasses="1"/>
+  </History>
+</BugCollection>

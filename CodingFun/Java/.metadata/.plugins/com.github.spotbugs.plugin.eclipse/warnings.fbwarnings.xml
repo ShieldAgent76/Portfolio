@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="2" timestamp="1609896664149" analysisTimestamp="1609896663880" release="">
+  <Project projectName="warnings">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\warnings\bin\module-info.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\warnings\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\warnings\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 5 Jan 2021 17:26:09 -0800" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.69" clock_seconds="0.27" peak_mbytes="815.05" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="110" invocations="2" avgMicrosecondsPerInvocation="55327" maxMicrosecondsPerInvocation="98454" standardDeviationMicrosecondsPerInvocation="43127"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="95" invocations="153" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="10234" standardDeviationMicrosecondsPerInvocation="1302"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1609896627692" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1609896627692" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HW_Branching
+comment0.text=\r\n\ Author\:\ Martin\ Lillo\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=store1\ store2\ store3\ threshold
+comment2.target=void\ whichDidGreat(double,\ double,\ double,\ double)
+numComments=3

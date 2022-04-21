@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;cs141.mrlillo.Rectangle.width&apos; in &apos;cs141.mrlillo.Rectangle&apos;&#x0D;&#x0A;- Original project: &apos;Worksheet8&apos;&#x0D;&#x0A;- Original element: &apos;cs141.mrlillo.Rectangle.width&apos;&#x0D;&#x0A;- Getter method name: &apos;getWidth&apos;&#x0D;&#x0A;- Setter method name: &apos;setWidth&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type&#x0D;&#x0A;- Generate method comments" comments="true" declaring="true" description="Encapsulate field &apos;width&apos;" flags="589830" getter="getWidth" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;cs141.mrlillo{Rectangle.java[Rectangle^width" insertion="3" setter="setWidth" stamp="1596259703370" version="1.0" visibility="1"/>
+</session>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="10" timestamp="1615526547132" analysisTimestamp="1615526543253" release="">
+  <Project projectName="lillom-snapshop">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\bin\gui\SnapShopGUI$1.class</Jar>
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\bin\gui\SnapShopGUI$2.class</Jar>
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\bin\gui\SnapShopGUI$3.class</Jar>
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\bin\gui\SnapShopGUI$4.class</Jar>
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\bin\gui\SnapShopGUI.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-snapshop\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 11 Mar 2021 21:22:22 -0800" total_classes="5" referenced_classes="302" total_bugs="0" total_size="149" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="12.62" clock_seconds="3.89" peak_mbytes="980.68" alloc_mbytes="2048.00" gc_seconds="0.11">
+    <PackageStats package="gui" total_bugs="0" total_types="5" total_size="149">
+      <ClassStats class="gui.SnapShopGUI" sourceFile="SnapShopGUI.java" interface="false" size="113" bugs="0"/>
+      <ClassStats class="gui.SnapShopGUI$1" sourceFile="SnapShopGUI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="gui.SnapShopGUI$2" sourceFile="SnapShopGUI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="gui.SnapShopGUI$3" sourceFile="SnapShopGUI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="gui.SnapShopGUI$4" sourceFile="SnapShopGUI.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="625" invocations="1581" avgMicrosecondsPerInvocation="395" maxMicrosecondsPerInvocation="78140" standardDeviationMicrosecondsPerInvocation="2394"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="509" invocations="302" avgMicrosecondsPerInvocation="1687" maxMicrosecondsPerInvocation="25577" standardDeviationMicrosecondsPerInvocation="3222"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="466" invocations="302" avgMicrosecondsPerInvocation="1543" maxMicrosecondsPerInvocation="21148" standardDeviationMicrosecondsPerInvocation="3080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="441" invocations="1585" avgMicrosecondsPerInvocation="278" maxMicrosecondsPerInvocation="33283" standardDeviationMicrosecondsPerInvocation="1050"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="306" invocations="655" avgMicrosecondsPerInvocation="467" maxMicrosecondsPerInvocation="4395" standardDeviationMicrosecondsPerInvocation="511"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="298" invocations="2" avgMicrosecondsPerInvocation="149150" maxMicrosecondsPerInvocation="210808" standardDeviationMicrosecondsPerInvocation="61658"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="173" invocations="302" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="23179" standardDeviationMicrosecondsPerInvocation="1679"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="124" invocations="302" avgMicrosecondsPerInvocation="410" maxMicrosecondsPerInvocation="9906" standardDeviationMicrosecondsPerInvocation="989"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1615494019853" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1615494019854" release="" codeSize="395" numClasses="19"/>
+    <AppVersion sequence="2" timestamp="1615494509522" release="" codeSize="149" numClasses="5"/>
+    <AppVersion sequence="3" timestamp="1615494573996" release="" codeSize="149" numClasses="5"/>
+    <AppVersion sequence="4" timestamp="1615494603531" release="" codeSize="149" numClasses="5"/>
+    <AppVersion sequence="5" timestamp="1615494811508" release="" codeSize="151" numClasses="5"/>
+    <AppVersion sequence="6" timestamp="1615494879425" release="" codeSize="152" numClasses="5"/>
+    <AppVersion sequence="7" timestamp="1615494961407" release="" codeSize="152" numClasses="5"/>
+    <AppVersion sequence="8" timestamp="1615494996589" release="" codeSize="152" numClasses="5"/>
+    <AppVersion sequence="9" timestamp="1615495262240" release="" codeSize="149" numClasses="5"/>
+  </History>
+</BugCollection>

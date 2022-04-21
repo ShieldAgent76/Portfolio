@@ -1,0 +1,105 @@
+/**
+ * 
+ */
+package model;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import model.vehicles.AbstractVehicle;
+import model.vehicles.Bicycle;
+import model.vehicles.Car;
+import model.vehicles.MotorBike;
+
+/**
+ * @author Martin Lillo
+ * @version TCSS 305 Winter 2021 
+ */
+public class RentalManager {
+    
+    /**
+     * Map for vehicles available.
+     */
+    private Map<Integer, AbstractVehicle> myVehicleList = new HashMap<>();
+    
+    /**
+     * Registration Object.
+     */
+    private Registration myRegistration;
+    
+    /**
+     * RentalManager Constructor.
+     * Initialize values for myRegistration
+     * Initialize myVehicleList by calling generateInventory method
+     * @param theRegistration
+     */
+    public RentalManager(final Registration theRegistration) {
+        this.myRegistration = Objects.requireNonNull(theRegistration);
+        generateInventory();
+    }
+    
+    /**
+     * generateInventory method.
+     * @return Map<myVehicleID, Vehicle> myVehicleList
+     */
+    public Map<Integer, AbstractVehicle> generateInventory() {
+        // vehicles in list
+        final Car honda = new Car("Honda", "V100", true, false, false, false);
+        final Car jeep = new Car("Jeep", "V101", false, false, true, false);
+        final Car mercedesBenz = new Car("Mercedes Benz", "V102", false, true, true, true);
+        final MotorBike harleyDavid = new MotorBike("Harley-Davidson", "B100", true, true);
+        final MotorBike suzuki = new MotorBike("Suzuki", "B101", false, true);
+        final Bicycle mountaineer = new Bicycle("Mountaineer", "C100", false, Bicycle.BikeType.Mountain);
+        final Bicycle cycle = new Bicycle("Cycle", "C101", true, Bicycle.BikeType.Cruiser);
+        final Bicycle starter = new Bicycle("Starter", "C102", true, Bicycle.BikeType.Hybrid);
+        
+        myVehicleList.put(honda.getMyVehicleID(), honda);
+        myVehicleList.put(jeep.getMyVehicleID(), jeep);
+        myVehicleList.put(mercedesBenz.getMyVehicleID(), mercedesBenz);
+        myVehicleList.put(harleyDavid.getMyVehicleID(), harleyDavid);
+        myVehicleList.put(suzuki.getMyVehicleID(), suzuki);
+        myVehicleList.put(mountaineer.getMyVehicleID(), mountaineer);
+        myVehicleList.put(cycle.getMyVehicleID(), cycle);
+        myVehicleList.put(starter.getMyVehicleID(), starter);
+        return myVehicleList;
+    }
+    
+    /**
+     * Get myVehicleList.
+     * @return myVehicleList
+     */
+    public Map<Integer, AbstractVehicle> getMyVehicleList() {
+        return myVehicleList;
+    }
+    
+    /**
+     * Get Registration object.
+     * @return myRwgistration
+     */
+    public Registration getMyRegistration() {
+        return myRegistration;
+    }
+    
+    /**
+     * User menu for rentz system.
+     */
+    public void printOptions() {
+        printVehicles();
+    }
+    
+    /**
+     * Private method to print all vehicles in the system.
+     */
+    private void printVehicles() {
+        System.out.println("Vehicles available:");
+        final List<AbstractVehicle> sortedVehicles = new ArrayList<>(myVehicleList.values());
+        sortedVehicles.sort(Comparator.comparing(AbstractVehicle::getMyVehicleID));
+        for (AbstractVehicle vehicle : sortedVehicles) {
+            final String vehicleInfo = vehicle.toString();
+            System.out.println(vehicleInfo);
+        }
+    }
+}

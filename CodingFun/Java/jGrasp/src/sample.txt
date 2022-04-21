@@ -1,0 +1,39 @@
+7
+TF 5
+There exist birds that can not fly. (true/false)
+true
+MC 10
+Who was the president of the USA in 1991?
+6
+Richard Nixon
+Gerald Ford
+Jimmy Carter
+Ronald Reagan
+George Bush Sr.
+Bill Clinton
+E
+SA 20
+What city hosted the 2004 Summer Olympics?
+Athens
+MC 10
+Who wrote the Hobbit novels?
+4
+George R.R. Martin
+J.R.R Tolkien
+Leo Tolstopy
+George Orwell
+B
+MC 10
+Who voiced the Genie in Disney's Aladdin (1992)?
+4
+Will Smith
+Tom Hanks
+Robin Williams
+Will Ferrell
+C
+SA 20
+In what year was American President Abraham Lincoln assassinated?
+1865
+TF 5
+In January Earth is closest to the Sun. (true/false)
+true

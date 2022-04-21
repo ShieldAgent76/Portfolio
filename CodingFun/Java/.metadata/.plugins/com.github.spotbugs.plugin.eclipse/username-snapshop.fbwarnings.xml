@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1614728815834" analysisTimestamp="1614728810902" release="">
+  <Project projectName="username-snapshop">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\username-snapshop\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\username-snapshop\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\username-snapshop\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 2 Mar 2021 15:46:50 -0800" total_classes="15" referenced_classes="84" total_bugs="0" total_size="254" num_packages="3" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="13.75" clock_seconds="4.94" peak_mbytes="610.75" alloc_mbytes="2048.00" gc_seconds="0.08">
+    <PackageStats package="filters" total_bugs="0" total_types="10" total_size="154">
+      <ClassStats class="filters.AbstractFilter" sourceFile="AbstractFilter.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="filters.AbstractWeightedFilter" sourceFile="AbstractWeightedFilter.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="filters.EdgeDetectFilter" sourceFile="EdgeDetectFilter.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="filters.EdgeHighlightFilter" sourceFile="EdgeHighlightFilter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="filters.Filter" sourceFile="Filter.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="filters.FlipHorizontalFilter" sourceFile="FlipHorizontalFilter.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="filters.FlipVerticalFilter" sourceFile="FlipVerticalFilter.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="filters.GrayscaleFilter" sourceFile="GrayscaleFilter.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="filters.SharpenFilter" sourceFile="SharpenFilter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="filters.SoftenFilter" sourceFile="SoftenFilter.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="gui" total_bugs="0" total_types="3" total_size="19">
+      <ClassStats class="gui.SnapShopGUI" sourceFile="SnapShopGUI.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="gui.SnapShopMain" sourceFile="SnapShopMain.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="gui.SnapShopMain$1" sourceFile="SnapShopMain.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="image" total_bugs="0" total_types="2" total_size="81">
+      <ClassStats class="image.Pixel" sourceFile="Pixel.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="image.PixelImage" sourceFile="PixelImage.java" interface="false" size="43" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="834" invocations="821" avgMicrosecondsPerInvocation="1017" maxMicrosecondsPerInvocation="56963" standardDeviationMicrosecondsPerInvocation="3896"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="660" invocations="2" avgMicrosecondsPerInvocation="330039" maxMicrosecondsPerInvocation="569264" standardDeviationMicrosecondsPerInvocation="239225"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="643" invocations="824" avgMicrosecondsPerInvocation="780" maxMicrosecondsPerInvocation="111583" standardDeviationMicrosecondsPerInvocation="4988"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="425" invocations="84" avgMicrosecondsPerInvocation="5064" maxMicrosecondsPerInvocation="55421" standardDeviationMicrosecondsPerInvocation="11599"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="338" invocations="348" avgMicrosecondsPerInvocation="973" maxMicrosecondsPerInvocation="66911" standardDeviationMicrosecondsPerInvocation="4159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="255" invocations="84" avgMicrosecondsPerInvocation="3041" maxMicrosecondsPerInvocation="62219" standardDeviationMicrosecondsPerInvocation="7583"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="104" invocations="784" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="12780" standardDeviationMicrosecondsPerInvocation="640"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="104" invocations="120" avgMicrosecondsPerInvocation="867" maxMicrosecondsPerInvocation="37930" standardDeviationMicrosecondsPerInvocation="4166"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="90" invocations="45" avgMicrosecondsPerInvocation="2011" maxMicrosecondsPerInvocation="44717" standardDeviationMicrosecondsPerInvocation="6846"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="78" invocations="45" avgMicrosecondsPerInvocation="1741" maxMicrosecondsPerInvocation="36656" standardDeviationMicrosecondsPerInvocation="6036"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="76" invocations="84" avgMicrosecondsPerInvocation="910" maxMicrosecondsPerInvocation="52872" standardDeviationMicrosecondsPerInvocation="5727"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="76" invocations="84" avgMicrosecondsPerInvocation="909" maxMicrosecondsPerInvocation="38340" standardDeviationMicrosecondsPerInvocation="4196"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614728815834" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

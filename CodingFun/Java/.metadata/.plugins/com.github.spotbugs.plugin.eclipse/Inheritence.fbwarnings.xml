@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="6" timestamp="1612809296358" analysisTimestamp="1612809288927" release="">
+  <Project projectName="Inheritence">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Inheritence\bin\exercises\inheritence\Dog.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Inheritence\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Inheritence\src</SrcDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="inheritenceExample.AbstractParent">
+      <SourceLine classname="inheritenceExample.AbstractParent" sourcefile="AbstractParent.java" sourcepath="inheritenceExample/AbstractParent.java"/>
+    </Class>
+    <Field classname="inheritenceExample.AbstractParent" name="myVar" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="inheritenceExample.AbstractParent" sourcefile="AbstractParent.java" sourcepath="inheritenceExample/AbstractParent.java"/>
+    </Field>
+    <SourceLine classname="inheritenceExample.AbstractParent" start="28" end="28" startBytecode="15" endBytecode="15" sourcefile="AbstractParent.java" sourcepath="inheritenceExample/AbstractParent.java"/>
+  </BugInstance>
+  <BugInstance type="BC_IMPOSSIBLE_INSTANCEOF" priority="2" rank="9" abbrev="BC" category="CORRECTNESS" first="1">
+    <Class classname="inheritenceExample.Child1">
+      <SourceLine classname="inheritenceExample.Child1" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Class>
+    <Method classname="inheritenceExample.Child1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="inheritenceExample.Child1" start="42" end="67" startBytecode="0" endBytecode="31" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Method>
+    <Type descriptor="LinheritenceExample/Parent;" role="TYPE_FOUND">
+      <SourceLine classname="inheritenceExample.Parent" start="26" end="78" sourcefile="Parent.java" sourcepath="inheritenceExample/Parent.java"/>
+    </Type>
+    <Type descriptor="LinheritenceExample/Child1;" role="TYPE_EXPECTED">
+      <SourceLine classname="inheritenceExample.Child1" start="24" end="67" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Type>
+    <Method classname="inheritenceExample.Parent" name="&lt;init&gt;" signature="()V" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="inheritenceExample.Parent" start="26" end="29" startBytecode="0" endBytecode="72" sourcefile="Parent.java" sourcepath="inheritenceExample/Parent.java"/>
+    </Method>
+    <SourceLine classname="inheritenceExample.Child1" start="46" end="46" startBytecode="38" endBytecode="38" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+  </BugInstance>
+  <BugInstance type="BC_VACUOUS_INSTANCEOF" priority="2" rank="17" abbrev="BC" category="STYLE" first="1">
+    <Class classname="inheritenceExample.Child1">
+      <SourceLine classname="inheritenceExample.Child1" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Class>
+    <Method classname="inheritenceExample.Child1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="inheritenceExample.Child1" start="42" end="67" startBytecode="0" endBytecode="31" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Method>
+    <Type descriptor="LinheritenceExample/Child1;" role="TYPE_FOUND">
+      <SourceLine classname="inheritenceExample.Child1" start="24" end="67" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Type>
+    <Type descriptor="LinheritenceExample/Child1;" role="TYPE_EXPECTED">
+      <SourceLine classname="inheritenceExample.Child1" start="24" end="67" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Type>
+    <SourceLine classname="inheritenceExample.Child1" start="45" end="45" startBytecode="22" endBytecode="22" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    <SourceLine classname="inheritenceExample.Child1" start="45" end="45" startBytecode="22" endBytecode="22" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+  </BugInstance>
+  <BugInstance type="BC_VACUOUS_INSTANCEOF" priority="2" rank="17" abbrev="BC" category="STYLE" first="1">
+    <Class classname="inheritenceExample.Child1">
+      <SourceLine classname="inheritenceExample.Child1" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Class>
+    <Method classname="inheritenceExample.Child1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="inheritenceExample.Child1" start="42" end="67" startBytecode="0" endBytecode="31" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Method>
+    <Type descriptor="LinheritenceExample/Child1;" role="TYPE_FOUND">
+      <SourceLine classname="inheritenceExample.Child1" start="24" end="67" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Type>
+    <Type descriptor="LinheritenceExample/Parent;" role="TYPE_EXPECTED">
+      <SourceLine classname="inheritenceExample.Parent" start="26" end="78" sourcefile="Parent.java" sourcepath="inheritenceExample/Parent.java"/>
+    </Type>
+    <SourceLine classname="inheritenceExample.Child1" start="44" end="44" startBytecode="12" endBytecode="12" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    <SourceLine classname="inheritenceExample.Child1" start="44" end="44" startBytecode="12" endBytecode="12" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_INSTANCEOF" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="inheritenceExample.Child1">
+      <SourceLine classname="inheritenceExample.Child1" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Class>
+    <Method classname="inheritenceExample.Child1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="inheritenceExample.Child1" start="42" end="67" startBytecode="0" endBytecode="31" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Method>
+    <Type descriptor="LinheritenceExample/Child1;">
+      <SourceLine classname="inheritenceExample.Child1" start="24" end="67" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    </Type>
+    <SourceLine classname="inheritenceExample.Child1" start="47" end="47" startBytecode="48" endBytecode="48" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+    <SourceLine classname="inheritenceExample.Child1" start="47" end="47" startBytecode="48" endBytecode="48" sourcefile="Child1.java" sourcepath="inheritenceExample/Child1.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="inheritenceExample.Parent">
+      <SourceLine classname="inheritenceExample.Parent" sourcefile="Parent.java" sourcepath="inheritenceExample/Parent.java"/>
+    </Class>
+    <Field classname="inheritenceExample.Parent" name="myVar" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="inheritenceExample.Parent" sourcefile="Parent.java" sourcepath="inheritenceExample/Parent.java"/>
+    </Field>
+    <SourceLine classname="inheritenceExample.Parent" start="28" end="28" startBytecode="15" endBytecode="15" sourcefile="Parent.java" sourcepath="inheritenceExample/Parent.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 8 Feb 2021 10:34:47 -0800" total_classes="1" referenced_classes="16" total_bugs="6" total_size="12" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="17.89" clock_seconds="7.48" peak_mbytes="741.13" alloc_mbytes="2048.00" gc_seconds="0.19" priority_2="6">
+    <PackageStats package="exercises.inheritence" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="exercises.inheritence.Dog" sourceFile="Dog.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="5628" invocations="2" avgMicrosecondsPerInvocation="2814192" maxMicrosecondsPerInvocation="5410393" standardDeviationMicrosecondsPerInvocation="2596201"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1612482804029" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1612482804030" release="" codeSize="288" numClasses="16"/>
+    <AppVersion sequence="2" timestamp="1612483524775" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1612483565607" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1612484891768" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1612484998258" release="" codeSize="19" numClasses="1"/>
+  </History>
+</BugCollection>

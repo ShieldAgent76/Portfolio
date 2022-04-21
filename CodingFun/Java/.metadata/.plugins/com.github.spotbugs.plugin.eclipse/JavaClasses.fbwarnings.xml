@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="8" timestamp="1610390843129" analysisTimestamp="1610390835995" release="">
+  <Project projectName="JavaClasses">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\JAVAClasses.zip_expanded\JavaClasses\bin\exercises\Account.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\JAVAClasses.zip_expanded\JavaClasses\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\JAVAClasses.zip_expanded\JavaClasses\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="3" last="3" removedByChange="true">
+    <Class classname="exercises.Account">
+      <SourceLine classname="exercises.Account" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    </Class>
+    <Method classname="exercises.Account" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="exercises.Account" start="16" end="16" startBytecode="0" endBytecode="68" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="exercises.Account" start="19" end="19" startBytecode="12" endBytecode="12" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    <SourceLine classname="exercises.Account" start="19" end="19" startBytecode="12" endBytecode="12" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="4" last="6" removedByChange="true">
+    <Class classname="exercises.Account">
+      <SourceLine classname="exercises.Account" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    </Class>
+    <Method classname="exercises.Account" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.Account" start="51" end="55" startBytecode="0" endBytecode="121" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    </Method>
+    <Method classname="exercises.Account" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="exercises.Account" start="46" end="46" startBytecode="0" endBytecode="73" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    </Method>
+    <SourceLine classname="exercises.Account" start="54" end="54" startBytecode="29" endBytecode="29" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+    <SourceLine classname="exercises.Account" start="54" end="54" startBytecode="29" endBytecode="29" sourcefile="Account.java" sourcepath="exercises/Account.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 11 Jan 2021 10:47:15 -0800" total_classes="1" referenced_classes="13" total_bugs="0" total_size="20" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="12.72" clock_seconds="7.17" peak_mbytes="455.11" alloc_mbytes="2048.00" gc_seconds="0.08">
+    <PackageStats package="exercises" total_bugs="0" total_types="1" total_size="20">
+      <ClassStats class="exercises.Account" sourceFile="Account.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="4146" invocations="2" avgMicrosecondsPerInvocation="2073260" maxMicrosecondsPerInvocation="3707068" standardDeviationMicrosecondsPerInvocation="1633808"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1165" invocations="341" avgMicrosecondsPerInvocation="3419" maxMicrosecondsPerInvocation="52397" standardDeviationMicrosecondsPerInvocation="8142"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1609993947955" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1609993947955" release="" codeSize="71" numClasses="5"/>
+    <AppVersion sequence="2" timestamp="1609994010304" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1610067856389" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1610146550816" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1610146748224" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1610171006590" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1610171074725" release="" codeSize="20" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="6" timestamp="1611023420962" analysisTimestamp="1611023420386" release="">
+  <Project projectName="Collections">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Collections\bin\exercises\HashMapExercise.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Collections\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Collections\src</SrcDir>
+  </Project>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="collections.HashMapExample">
+      <SourceLine classname="collections.HashMapExample" sourcefile="HashMapExample.java" sourcepath="collections/HashMapExample.java"/>
+    </Class>
+    <Method classname="collections.HashMapExample" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="collections.HashMapExample" start="36" end="66" startBytecode="0" endBytecode="510" sourcefile="HashMapExample.java" sourcepath="collections/HashMapExample.java"/>
+    </Method>
+    <SourceLine classname="collections.HashMapExample" start="55" end="55" startBytecode="171" endBytecode="171" sourcefile="HashMapExample.java" sourcepath="collections/HashMapExample.java"/>
+    <SourceLine classname="collections.HashMapExample" start="55" end="55" startBytecode="171" endBytecode="171" sourcefile="HashMapExample.java" sourcepath="collections/HashMapExample.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="2">
+    <Class classname="exercises.HashMapExercise">
+      <SourceLine classname="exercises.HashMapExercise" sourcefile="HashMapExercise.java" sourcepath="exercises/HashMapExercise.java"/>
+    </Class>
+    <Method classname="exercises.HashMapExercise" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.HashMapExercise" start="37" end="60" startBytecode="0" endBytecode="418" sourcefile="HashMapExercise.java" sourcepath="exercises/HashMapExercise.java"/>
+    </Method>
+    <SourceLine classname="exercises.HashMapExercise" start="48" end="48" startBytecode="98" endBytecode="98" sourcefile="HashMapExercise.java" sourcepath="exercises/HashMapExercise.java"/>
+    <SourceLine classname="exercises.HashMapExercise" start="48" end="48" startBytecode="98" endBytecode="98" sourcefile="HashMapExercise.java" sourcepath="exercises/HashMapExercise.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 18 Jan 2021 18:30:20 -0800" total_classes="1" referenced_classes="19" total_bugs="2" total_size="20" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.83" clock_seconds="0.58" peak_mbytes="877.13" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="2">
+    <PackageStats package="exercises" total_bugs="1" total_types="1" total_size="20" priority_2="1">
+      <ClassStats class="exercises.HashMapExercise" sourceFile="HashMapExercise.java" interface="false" size="20" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="147" invocations="407" avgMicrosecondsPerInvocation="362" maxMicrosecondsPerInvocation="10439" standardDeviationMicrosecondsPerInvocation="796"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="117" invocations="2" avgMicrosecondsPerInvocation="58526" maxMicrosecondsPerInvocation="106678" standardDeviationMicrosecondsPerInvocation="48152"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="73" invocations="408" avgMicrosecondsPerInvocation="181" maxMicrosecondsPerInvocation="845" standardDeviationMicrosecondsPerInvocation="83"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="32" invocations="19" avgMicrosecondsPerInvocation="1716" maxMicrosecondsPerInvocation="7184" standardDeviationMicrosecondsPerInvocation="1979"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="29" invocations="83" avgMicrosecondsPerInvocation="359" maxMicrosecondsPerInvocation="1397" standardDeviationMicrosecondsPerInvocation="286"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="25" invocations="19" avgMicrosecondsPerInvocation="1362" maxMicrosecondsPerInvocation="9798" standardDeviationMicrosecondsPerInvocation="2201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="23" invocations="373" avgMicrosecondsPerInvocation="62" maxMicrosecondsPerInvocation="1242" standardDeviationMicrosecondsPerInvocation="117"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611022755591" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1611022755591" release="" codeSize="58" numClasses="4"/>
+    <AppVersion sequence="2" timestamp="1611023123707" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1611023283017" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1611023290862" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1611023377234" release="" codeSize="20" numClasses="1"/>
+  </History>
+</BugCollection>

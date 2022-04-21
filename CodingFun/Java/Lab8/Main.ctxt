@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=array
+comment2.target=void\ printIntArrayAsChars(int[])
+comment3.params=array
+comment3.target=void\ printIntArray(int[])
+comment4.params=input
+comment4.target=char\ intTranslator(int)
+comment5.params=input
+comment5.target=int\ charTranslator(char)
+comment6.params=input\ distance
+comment6.target=int\ caesarRotate(int,\ int)
+comment7.params=array
+comment7.target=void\ encipherArray(int[])
+comment8.params=array
+comment8.target=int[]\ copyArray(int[])
+comment9.params=array
+comment9.target=void\ renderArrayOfArrays(int[][])
+numComments=10

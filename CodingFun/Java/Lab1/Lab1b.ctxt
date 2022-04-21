@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Lab1b
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ onWall()
+comment3.params=
+comment3.target=void\ botBeer()
+comment4.params=
+comment4.target=void\ takeOneDown()
+comment5.params=
+comment5.target=void\ bottlesFall()
+comment6.params=
+comment6.target=void\ takeItDown()
+numComments=7

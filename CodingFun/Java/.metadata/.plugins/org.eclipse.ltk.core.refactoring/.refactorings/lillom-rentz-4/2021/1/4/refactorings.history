@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;model.User.myVIPStatus&apos; in &apos;model.User&apos;&#x0D;&#x0A;- Original project: &apos;lillom-rentz-1&apos;&#x0D;&#x0A;- Original element: &apos;model.User.myVIPStatus&apos;&#x0D;&#x0A;- Getter method name: &apos;isMyVIPStatus&apos;&#x0D;&#x0A;- Setter method name: &apos;setMyVIPStatus&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;myVIPStatus&apos;" flags="589830" getter="isMyVIPStatus" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;model{User.java[User^myVIPStatus" insertion="1" setter="setMyVIPStatus" stamp="1611212116696" version="1.0" visibility="1"/>
+</session>

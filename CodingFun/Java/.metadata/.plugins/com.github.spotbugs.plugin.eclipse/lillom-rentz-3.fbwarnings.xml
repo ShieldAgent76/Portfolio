@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="95" timestamp="1613715321678" analysisTimestamp="1613715321228" release="">
+  <Project projectName="lillom-rentz-3">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-3\bin\model\vehicles\MotorBikeTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-3\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-3\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="model.Registration">
+      <SourceLine classname="model.Registration" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    </Class>
+    <Method classname="model.Registration" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="model.Registration" start="36" end="41" startBytecode="0" endBytecode="49" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="model.Registration" start="36" end="36" startBytecode="7" endBytecode="7" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    <SourceLine classname="model.Registration" start="36" end="36" startBytecode="7" endBytecode="7" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="39" last="44" removedByChange="true">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="myStars" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="36" end="36" startBytecode="18" endBytecode="18" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="38" last="38" removedByChange="true">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="myRegistration" signature="Lmodel/Registration;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="38" end="38" startBytecode="23" endBytecode="23" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="38" last="38" removedByChange="true">
+    <Class classname="model.RentalManager">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Class>
+    <Field classname="model.RentalManager" name="myVehicleList" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="model.RentalManager" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+    </Field>
+    <SourceLine classname="model.RentalManager" start="24" end="24" startBytecode="12" endBytecode="12" sourcefile="RentalManager.java" sourcepath="model/RentalManager.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_UNUSUAL" priority="2" rank="17" abbrev="Eq" category="STYLE" first="5" last="51" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Method classname="model.vehicles.AbstractVehicle" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" start="90" end="90" startBytecode="0" endBytecode="51" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="58">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Method classname="model.vehicles.AbstractVehicle" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Z)V" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" start="52" end="58" startBytecode="0" endBytecode="124" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Method>
+    <Field classname="model.vehicles.AbstractVehicle" name="defaultID" signature="I" isStatic="true">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="54" end="54" startBytecode="11" endBytecode="11" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="54" end="54" startBytecode="11" endBytecode="11" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="7" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicle" name="myName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="7" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicle" name="myVIN" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="8" last="19" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicle" name="myName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="100" end="100" startBytecode="24" endBytecode="24" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="5" last="19" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicle" name="myRentalAmount" signature="Ljava/math/BigDecimal;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="174" end="174" startBytecode="1" endBytecode="1" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="8" last="19" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicle">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicle" name="myVIN" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicle" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+    </Field>
+    <SourceLine classname="model.vehicles.AbstractVehicle" start="100" end="100" startBytecode="17" endBytecode="17" sourcefile="AbstractVehicle.java" sourcepath="model/vehicles/AbstractVehicle.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="67" last="79" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicleTest">
+      <SourceLine classname="model.vehicles.AbstractVehicleTest" sourcefile="AbstractVehicleTest.java" sourcepath="model/vehicles/AbstractVehicleTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicleTest" name="myVehicle1" signature="Lmodel/vehicles/AbstractVehicle;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicleTest" start="22" end="22" startBytecode="0" endBytecode="0" sourcefile="AbstractVehicleTest.java" sourcepath="model/vehicles/AbstractVehicleTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="67" last="79" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicleTest">
+      <SourceLine classname="model.vehicles.AbstractVehicleTest" sourcefile="AbstractVehicleTest.java" sourcepath="model/vehicles/AbstractVehicleTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.AbstractVehicleTest" name="myVehicle2" signature="Lmodel/vehicles/AbstractVehicle;" isStatic="false">
+      <SourceLine classname="model.vehicles.AbstractVehicleTest" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="AbstractVehicleTest.java" sourcepath="model/vehicles/AbstractVehicleTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="68" last="68" removedByChange="true">
+    <Class classname="model.vehicles.AbstractVehicleTest$vehicleTest">
+      <SourceLine classname="model.vehicles.AbstractVehicleTest$vehicleTest" start="128" end="145" sourcefile="AbstractVehicleTest.java" sourcepath="model/vehicles/AbstractVehicleTest.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE" priority="2" rank="7" abbrev="DMI" category="CORRECTNESS" first="17" last="59" removedByChange="true">
+    <Class classname="model.vehicles.Bicycle">
+      <SourceLine classname="model.vehicles.Bicycle" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+    </Class>
+    <Method classname="model.vehicles.Bicycle" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="model.vehicles.Bicycle" start="18" end="38" startBytecode="0" endBytecode="117" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+    </Method>
+    <Method classname="java.math.BigDecimal" name="&lt;init&gt;" signature="(D)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.math.BigDecimal" start="901" end="902" startBytecode="0" endBytecode="64" sourcefile="BigDecimal.java" sourcepath="java/math/BigDecimal.java"/>
+    </Method>
+    <Method classname="java.math.BigDecimal" name="valueOf" signature="(D)Ljava/math/BigDecimal;" isStatic="true" role="METHOD_ALTERNATIVE_TARGET">
+      <SourceLine classname="java.math.BigDecimal" start="1305" end="1305" startBytecode="0" endBytecode="53" sourcefile="BigDecimal.java" sourcepath="java/math/BigDecimal.java"/>
+    </Method>
+    <String value="0.01"/>
+    <String value="0.01000000000000000020816681711721685132943093776702880859375"/>
+    <SourceLine classname="model.vehicles.Bicycle" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE" priority="2" rank="7" abbrev="DMI" category="CORRECTNESS" first="17" last="60" removedByChange="true">
+    <Class classname="model.vehicles.Bicycle">
+      <SourceLine classname="model.vehicles.Bicycle" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+    </Class>
+    <Method classname="model.vehicles.Bicycle" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="model.vehicles.Bicycle" start="18" end="38" startBytecode="0" endBytecode="116" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+    </Method>
+    <Method classname="java.math.BigDecimal" name="&lt;init&gt;" signature="(D)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.math.BigDecimal" start="901" end="902" startBytecode="0" endBytecode="64" sourcefile="BigDecimal.java" sourcepath="java/math/BigDecimal.java"/>
+    </Method>
+    <Method classname="java.math.BigDecimal" name="valueOf" signature="(D)Ljava/math/BigDecimal;" isStatic="true" role="METHOD_ALTERNATIVE_TARGET">
+      <SourceLine classname="java.math.BigDecimal" start="1305" end="1305" startBytecode="0" endBytecode="53" sourcefile="BigDecimal.java" sourcepath="java/math/BigDecimal.java"/>
+    </Method>
+    <String value="0.02"/>
+    <String value="0.0200000000000000004163336342344337026588618755340576171875"/>
+    <SourceLine classname="model.vehicles.Bicycle" start="33" end="33" startBytecode="40" endBytecode="40" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE" priority="2" rank="7" abbrev="DMI" category="CORRECTNESS" first="17" last="60" removedByChange="true">
+    <Class classname="model.vehicles.Bicycle">
+      <SourceLine classname="model.vehicles.Bicycle" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+    </Class>
+    <Method classname="model.vehicles.Bicycle" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="model.vehicles.Bicycle" start="18" end="38" startBytecode="0" endBytecode="116" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+    </Method>
+    <Method classname="java.math.BigDecimal" name="&lt;init&gt;" signature="(D)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.math.BigDecimal" start="901" end="902" startBytecode="0" endBytecode="64" sourcefile="BigDecimal.java" sourcepath="java/math/BigDecimal.java"/>
+    </Method>
+    <Method classname="java.math.BigDecimal" name="valueOf" signature="(D)Ljava/math/BigDecimal;" isStatic="true" role="METHOD_ALTERNATIVE_TARGET">
+      <SourceLine classname="java.math.BigDecimal" start="1305" end="1305" startBytecode="0" endBytecode="53" sourcefile="BigDecimal.java" sourcepath="java/math/BigDecimal.java"/>
+    </Method>
+    <String value="0.04"/>
+    <String value="0.040000000000000000832667268468867405317723751068115234375"/>
+    <SourceLine classname="model.vehicles.Bicycle" start="38" end="38" startBytecode="59" endBytecode="59" sourcefile="Bicycle.java" sourcepath="model/vehicles/Bicycle.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="75" last="75" removedByChange="true">
+    <Class classname="model.vehicles.BicycleTest">
+      <SourceLine classname="model.vehicles.BicycleTest" sourcefile="BicycleTest.java" sourcepath="model/vehicles/BicycleTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.BicycleTest" name="myBike1" signature="Lmodel/vehicles/Bicycle;" isStatic="false">
+      <SourceLine classname="model.vehicles.BicycleTest" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="BicycleTest.java" sourcepath="model/vehicles/BicycleTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="75" last="75" removedByChange="true">
+    <Class classname="model.vehicles.BicycleTest">
+      <SourceLine classname="model.vehicles.BicycleTest" sourcefile="BicycleTest.java" sourcepath="model/vehicles/BicycleTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.BicycleTest" name="myBike2" signature="Lmodel/vehicles/Bicycle;" isStatic="false">
+      <SourceLine classname="model.vehicles.BicycleTest" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="BicycleTest.java" sourcepath="model/vehicles/BicycleTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="91" last="91" removedByChange="true">
+    <Class classname="model.vehicles.CarTest">
+      <SourceLine classname="model.vehicles.CarTest" sourcefile="CarTest.java" sourcepath="model/vehicles/CarTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.CarTest" name="myCar2" signature="Lmodel/vehicles/Car;" isStatic="false">
+      <SourceLine classname="model.vehicles.CarTest" sourcefile="CarTest.java" sourcepath="model/vehicles/CarTest.java"/>
+    </Field>
+    <SourceLine classname="model.vehicles.CarTest" start="33" end="33" startBytecode="35" endBytecode="35" sourcefile="CarTest.java" sourcepath="model/vehicles/CarTest.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="71" last="71" removedByChange="true">
+    <Class classname="model.vehicles.VehicleTest">
+      <SourceLine classname="model.vehicles.VehicleTest" sourcefile="VehicleTest.java" sourcepath="model/vehicles/VehicleTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.VehicleTest" name="myVehicle1" signature="Lmodel/vehicles/AbstractVehicle;" isStatic="false">
+      <SourceLine classname="model.vehicles.VehicleTest" start="21" end="21" startBytecode="0" endBytecode="0" sourcefile="VehicleTest.java" sourcepath="model/vehicles/VehicleTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="71" last="71" removedByChange="true">
+    <Class classname="model.vehicles.VehicleTest">
+      <SourceLine classname="model.vehicles.VehicleTest" sourcefile="VehicleTest.java" sourcepath="model/vehicles/VehicleTest.java"/>
+    </Class>
+    <Field classname="model.vehicles.VehicleTest" name="myVehicle2" signature="Lmodel/vehicles/AbstractVehicle;" isStatic="false">
+      <SourceLine classname="model.vehicles.VehicleTest" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="VehicleTest.java" sourcepath="model/vehicles/VehicleTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="utility.FileLoader">
+      <SourceLine classname="utility.FileLoader" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Class>
+    <Method classname="utility.FileLoader" name="readItemsFromFile" signature="(Ljava/lang/String;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="utility.FileLoader" start="43" end="61" startBytecode="0" endBytecode="504" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="75" end="76" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="utility.FileLoader" start="46" end="46" startBytecode="41" endBytecode="41" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    <SourceLine classname="utility.FileLoader" start="46" end="46" startBytecode="41" endBytecode="41" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 18 Feb 2021 22:15:21 -0800" total_classes="1" referenced_classes="20" total_bugs="3" total_size="35" num_packages="3" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.70" clock_seconds="0.45" peak_mbytes="856.78" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="1" priority_1="2">
+    <PackageStats package="model.vehicles" total_bugs="1" total_types="2" total_size="35" priority_2="1">
+      <ClassStats class="model.vehicles.MotorBikeTest" sourceFile="MotorBikeTest.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="145" invocations="2" avgMicrosecondsPerInvocation="72830" maxMicrosecondsPerInvocation="136942" standardDeviationMicrosecondsPerInvocation="64112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="104" invocations="382" avgMicrosecondsPerInvocation="273" maxMicrosecondsPerInvocation="5889" standardDeviationMicrosecondsPerInvocation="566"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="59" invocations="383" avgMicrosecondsPerInvocation="156" maxMicrosecondsPerInvocation="1038" standardDeviationMicrosecondsPerInvocation="93"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="20" invocations="20" avgMicrosecondsPerInvocation="1002" maxMicrosecondsPerInvocation="5148" standardDeviationMicrosecondsPerInvocation="1530"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="13" invocations="96" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="1740" standardDeviationMicrosecondsPerInvocation="216"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1613189701407" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1613189701407" release="" codeSize="275" numClasses="6"/>
+    <AppVersion sequence="2" timestamp="1613189902034" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1613190009004" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="4" timestamp="1613190024709" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1613191940874" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1613191958364" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1613191970326" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1613279463892" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1613279488652" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1613279585022" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1613279601807" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1613279610304" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1613280101737" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1613280128600" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1613281332041" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1613281464331" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1613281912454" release="" codeSize="67" numClasses="4"/>
+    <AppVersion sequence="18" timestamp="1613281960132" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="19" timestamp="1613282008983" release="" codeSize="110" numClasses="5"/>
+    <AppVersion sequence="20" timestamp="1613367523628" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1613368114395" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1613368583192" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1613368594383" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1613368707508" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="25" timestamp="1613368711602" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1613369119397" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1613369141678" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1613415960270" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1613420186067" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="30" timestamp="1613420386697" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1613420495050" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1613420612491" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1613420649025" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1613420661797" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1613420673310" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1613420710491" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1613627575268" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1613629132074" release="" codeSize="185" numClasses="6"/>
+    <AppVersion sequence="39" timestamp="1613630976003" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1613630994562" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1613631106400" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1613631120489" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1613679656522" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1613679664358" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1613679702179" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1613687158179" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1613687204500" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="48" timestamp="1613687229961" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1613687270604" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1613687290527" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1613687318605" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="52" timestamp="1613687439413" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1613687906054" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1613687925213" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1613688022184" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="56" timestamp="1613688034516" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1613688153805" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="58" timestamp="1613688185753" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1613688323926" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1613688405140" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="61" timestamp="1613688416274" release="" codeSize="62" numClasses="2"/>
+    <AppVersion sequence="62" timestamp="1613688540929" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="63" timestamp="1613688556389" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1613688643971" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="65" timestamp="1613688745884" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="66" timestamp="1613707804616" release="" codeSize="102" numClasses="4"/>
+    <AppVersion sequence="67" timestamp="1613708662404" release="" codeSize="45" numClasses="2"/>
+    <AppVersion sequence="68" timestamp="1613708752022" release="" codeSize="47" numClasses="2"/>
+    <AppVersion sequence="69" timestamp="1613708807857" release="" codeSize="45" numClasses="2"/>
+    <AppVersion sequence="70" timestamp="1613708828332" release="" codeSize="45" numClasses="2"/>
+    <AppVersion sequence="71" timestamp="1613708917228" release="" codeSize="45" numClasses="2"/>
+    <AppVersion sequence="72" timestamp="1613710788812" release="" codeSize="53" numClasses="2"/>
+    <AppVersion sequence="73" timestamp="1613710793446" release="" codeSize="53" numClasses="2"/>
+    <AppVersion sequence="74" timestamp="1613710889404" release="" codeSize="53" numClasses="2"/>
+    <AppVersion sequence="75" timestamp="1613712198319" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="76" timestamp="1613712228756" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="77" timestamp="1613712241406" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="78" timestamp="1613712258157" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="79" timestamp="1613712273490" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="80" timestamp="1613712399782" release="" codeSize="53" numClasses="2"/>
+    <AppVersion sequence="81" timestamp="1613712410048" release="" codeSize="53" numClasses="2"/>
+    <AppVersion sequence="82" timestamp="1613712717216" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="83" timestamp="1613712745498" release="" codeSize="50" numClasses="2"/>
+    <AppVersion sequence="84" timestamp="1613712831296" release="" codeSize="50" numClasses="2"/>
+    <AppVersion sequence="85" timestamp="1613713145562" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="86" timestamp="1613713167144" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="87" timestamp="1613714002606" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="88" timestamp="1613714007481" release="" codeSize="50" numClasses="2"/>
+    <AppVersion sequence="89" timestamp="1613714109335" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="90" timestamp="1613714236933" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="91" timestamp="1613714251666" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="92" timestamp="1613714327579" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="93" timestamp="1613714339751" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="94" timestamp="1613715265590" release="" codeSize="35" numClasses="1"/>
+  </History>
+</BugCollection>

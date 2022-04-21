@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1625191458982" analysisTimestamp="1625191450202" release="">
+  <Project projectName="lambdaExpressions">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lambdaExpressions\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lambdaExpressions\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lambdaExpressions\src</SrcDir>
+  </Project>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="exercisesLambdaexpressions.LambdaExampleD">
+      <SourceLine classname="exercisesLambdaexpressions.LambdaExampleD" sourcefile="LambdaExampleD.java" sourcepath="exercisesLambdaexpressions/LambdaExampleD.java"/>
+    </Class>
+    <Method classname="exercisesLambdaexpressions.LambdaExampleD" name="lambda$0" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="exercisesLambdaexpressions.LambdaExampleD" start="34" end="40" startBytecode="0" endBytecode="144" sourcefile="LambdaExampleD.java" sourcepath="exercisesLambdaexpressions/LambdaExampleD.java"/>
+    </Method>
+    <SourceLine classname="exercisesLambdaexpressions.LambdaExampleD" start="37" end="37" startBytecode="8" endBytecode="8" sourcefile="LambdaExampleD.java" sourcepath="exercisesLambdaexpressions/LambdaExampleD.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="lambdaexpressions.LambdaExampleC">
+      <SourceLine classname="lambdaexpressions.LambdaExampleC" sourcefile="LambdaExampleC.java" sourcepath="lambdaexpressions/LambdaExampleC.java"/>
+    </Class>
+    <Method classname="lambdaexpressions.LambdaExampleC" name="lambda$0" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="lambdaexpressions.LambdaExampleC" start="33" end="40" startBytecode="0" endBytecode="138" sourcefile="LambdaExampleC.java" sourcepath="lambdaexpressions/LambdaExampleC.java"/>
+    </Method>
+    <SourceLine classname="lambdaexpressions.LambdaExampleC" start="36" end="36" startBytecode="13" endBytecode="13" sourcefile="LambdaExampleC.java" sourcepath="lambdaexpressions/LambdaExampleC.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 1 Jul 2021 19:04:07 -0700" total_classes="11" referenced_classes="31" total_bugs="2" total_size="112" num_packages="4" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="21.11" clock_seconds="8.81" peak_mbytes="474.82" alloc_mbytes="2048.00" gc_seconds="0.17" priority_2="2">
+    <PackageStats package="exercisesGenerics" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="exercisesGenerics.GenericClassExample" sourceFile="GenericClassExample.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="exercisesLambdaexpressions" total_bugs="1" total_types="2" total_size="32" priority_2="1">
+      <ClassStats class="exercisesLambdaexpressions.LambdaExampleB" sourceFile="LambdaExampleB.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="exercisesLambdaexpressions.LambdaExampleD" sourceFile="LambdaExampleD.java" interface="false" size="14" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="generics" total_bugs="0" total_types="2" total_size="24">
+      <ClassStats class="generics.GenericClass" sourceFile="GenericClass.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="generics.GenericFunctions" sourceFile="GenericFunctions.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="lambdaexpressions" total_bugs="1" total_types="6" total_size="44" priority_2="1">
+      <ClassStats class="lambdaexpressions.FunctionalInterface" sourceFile="FunctionalInterface.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="lambdaexpressions.GenericInterface" sourceFile="GenericInterface.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="lambdaexpressions.LambdaExampleA" sourceFile="LambdaExampleA.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="lambdaexpressions.LambdaExampleC" sourceFile="LambdaExampleC.java" interface="false" size="14" bugs="1" priority_2="1"/>
+      <ClassStats class="lambdaexpressions.LambdaExampleE" sourceFile="LambdaExampleE.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="lambdaexpressions.StringInterface" sourceFile="StringInterface.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="4909" invocations="2" avgMicrosecondsPerInvocation="2454865" maxMicrosecondsPerInvocation="4494125" standardDeviationMicrosecondsPerInvocation="2039259"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1044" invocations="457" avgMicrosecondsPerInvocation="2286" maxMicrosecondsPerInvocation="62679" standardDeviationMicrosecondsPerInvocation="6171"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="597" invocations="458" avgMicrosecondsPerInvocation="1304" maxMicrosecondsPerInvocation="39654" standardDeviationMicrosecondsPerInvocation="3717"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1625191458979" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

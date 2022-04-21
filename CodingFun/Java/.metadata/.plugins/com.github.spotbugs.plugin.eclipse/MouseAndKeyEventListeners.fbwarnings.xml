@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1614728783266" analysisTimestamp="1614728764950" release="">
+  <Project projectName="MouseAndKeyEventListeners">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\MouseAndKeyEventListeners\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\MouseAndKeyEventListeners\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\MouseAndKeyEventListeners\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 2 Mar 2021 15:46:02 -0800" total_classes="10" referenced_classes="356" total_bugs="0" total_size="350" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="49.06" clock_seconds="18.33" peak_mbytes="521.37" alloc_mbytes="2048.00" gc_seconds="0.42">
+    <PackageStats package="keylisteners" total_bugs="0" total_types="2" total_size="106">
+      <ClassStats class="keylisteners.KeyEventDemo" sourceFile="KeyEventDemo.java" interface="false" size="100" bugs="0"/>
+      <ClassStats class="keylisteners.KeyEventDemo$1" sourceFile="KeyEventDemo.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mouselisteners" total_bugs="0" total_types="8" total_size="244">
+      <ClassStats class="mouselisteners.BlankArea" sourceFile="BlankArea.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseEventDemo" sourceFile="MouseEventDemo.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseEventDemo$1" sourceFile="MouseEventDemo.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseInputAdapterDemo" sourceFile="MouseInputAdapterDemo.java" interface="false" size="52" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseInputAdapterDemo$1" sourceFile="MouseInputAdapterDemo.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseInputAdapterDemo$MyMouseInputAdapter" sourceFile="MouseInputAdapterDemo.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseMotionEventDemo" sourceFile="MouseMotionEventDemo.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="mouselisteners.MouseMotionEventDemo$1" sourceFile="MouseMotionEventDemo.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="6004" invocations="2" avgMicrosecondsPerInvocation="3002166" maxMicrosecondsPerInvocation="5215847" standardDeviationMicrosecondsPerInvocation="2213681"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="3021" invocations="1703" avgMicrosecondsPerInvocation="1774" maxMicrosecondsPerInvocation="62325" standardDeviationMicrosecondsPerInvocation="5467"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="2182" invocations="1699" avgMicrosecondsPerInvocation="1284" maxMicrosecondsPerInvocation="139783" standardDeviationMicrosecondsPerInvocation="5253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1015" invocations="356" avgMicrosecondsPerInvocation="2852" maxMicrosecondsPerInvocation="63592" standardDeviationMicrosecondsPerInvocation="6730"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="985" invocations="356" avgMicrosecondsPerInvocation="2767" maxMicrosecondsPerInvocation="49657" standardDeviationMicrosecondsPerInvocation="6067"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="554" invocations="800" avgMicrosecondsPerInvocation="692" maxMicrosecondsPerInvocation="41546" standardDeviationMicrosecondsPerInvocation="2114"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614728783263" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

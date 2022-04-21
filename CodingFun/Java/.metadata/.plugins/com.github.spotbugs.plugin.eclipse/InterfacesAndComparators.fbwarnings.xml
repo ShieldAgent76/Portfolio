@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="32" timestamp="1613189378265" analysisTimestamp="1613189376395" release="">
+  <Project projectName="InterfacesAndComparators">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\InterfacesAndComparators\bin\exercises\Point.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\InterfacesAndComparators\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\InterfacesAndComparators\src</SrcDir>
+  </Project>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="comparableandcomparators.CustomComparePoint">
+      <SourceLine classname="comparableandcomparators.CustomComparePoint" start="1" end="27" sourcefile="CustomComparePoint.java" sourcepath="comparableandcomparators/CustomComparePoint.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="21" last="21" removedByChange="true">
+    <Class classname="exercises.Point">
+      <SourceLine classname="exercises.Point" start="33" end="239" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="20" last="20" removedByChange="true">
+    <Class classname="exercises.Point">
+      <SourceLine classname="exercises.Point" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Class>
+    <Method classname="exercises.Point" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.Point" start="229" end="237" startBytecode="0" endBytecode="122" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Method>
+    <String value="list"/>
+    <Type descriptor="Ljava/util/ArrayList;">
+      <SourceLine classname="java.util.ArrayList" start="123" end="1730" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Type>
+    <SourceLine classname="exercises.Point" start="229" end="229" startBytecode="4" endBytecode="4" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_VOID_METHOD" priority="1" rank="15" abbrev="UC" category="STYLE" first="20" last="27" removedByChange="true">
+    <Class classname="exercises.Point">
+      <SourceLine classname="exercises.Point" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Class>
+    <Method classname="exercises.Point" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.Point" start="243" end="252" startBytecode="0" endBytecode="145" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Method>
+    <SourceLine classname="exercises.Point" start="252" end="252" startBytecode="55" endBytecode="55" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    <SourceLine classname="exercises.Point" start="252" end="252" startBytecode="55" endBytecode="55" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="24">
+    <Class classname="exercises.PointYCompare">
+      <SourceLine classname="exercises.PointYCompare" start="1" end="23" sourcefile="PointYCompare.java" sourcepath="exercises/PointYCompare.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="BC_IMPOSSIBLE_INSTANCEOF" priority="2" rank="9" abbrev="BC" category="CORRECTNESS" first="1">
+    <Class classname="interfaces.InterfaceInstanceExample">
+      <SourceLine classname="interfaces.InterfaceInstanceExample" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    </Class>
+    <Method classname="interfaces.InterfaceInstanceExample" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="interfaces.InterfaceInstanceExample" start="39" end="61" startBytecode="0" endBytecode="34" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    </Method>
+    <Type descriptor="Linterfaces/InterfaceInstanceExample;" role="TYPE_FOUND">
+      <SourceLine classname="interfaces.InterfaceInstanceExample" start="15" end="61" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    </Type>
+    <Type descriptor="Linterfaces/YourInterface;" role="TYPE_EXPECTED">
+      <SourceLine classname="interfaces.YourInterface" sourcefile="YourInterface.java" sourcepath="interfaces/YourInterface.java"/>
+    </Type>
+    <LocalVariable name="interfaceReference" register="1" pc="77" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="interfaces.InterfaceInstanceExample" start="59" end="59" startBytecode="78" endBytecode="78" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+  </BugInstance>
+  <BugInstance type="BC_VACUOUS_INSTANCEOF" priority="2" rank="17" abbrev="BC" category="STYLE" first="1" last="1" removedByChange="true">
+    <Class classname="interfaces.InterfaceInstanceExample">
+      <SourceLine classname="interfaces.InterfaceInstanceExample" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    </Class>
+    <Method classname="interfaces.InterfaceInstanceExample" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="interfaces.InterfaceInstanceExample" start="39" end="61" startBytecode="0" endBytecode="34" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    </Method>
+    <Type descriptor="Linterfaces/InterfaceInstanceExample;" role="TYPE_FOUND">
+      <SourceLine classname="interfaces.InterfaceInstanceExample" start="15" end="61" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    </Type>
+    <Type descriptor="Linterfaces/MyInterface;" role="TYPE_EXPECTED">
+      <SourceLine classname="interfaces.MyInterface" start="37" end="45" sourcefile="MyInterface.java" sourcepath="interfaces/MyInterface.java"/>
+    </Type>
+    <SourceLine classname="interfaces.InterfaceInstanceExample" start="57" end="57" startBytecode="68" endBytecode="68" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+    <SourceLine classname="interfaces.InterfaceInstanceExample" start="57" end="57" startBytecode="68" endBytecode="68" sourcefile="InterfaceInstanceExample.java" sourcepath="interfaces/InterfaceInstanceExample.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 12 Feb 2021 20:09:36 -0800" total_classes="1" referenced_classes="24" total_bugs="3" total_size="80" num_packages="3" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="6.75" clock_seconds="1.88" peak_mbytes="466.99" alloc_mbytes="2048.00" gc_seconds="0.03" priority_2="3">
+    <PackageStats package="exercises" total_bugs="1" total_types="2" total_size="80" priority_2="1">
+      <ClassStats class="exercises.Point" sourceFile="Point.java" interface="false" size="80" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="679" invocations="471" avgMicrosecondsPerInvocation="1442" maxMicrosecondsPerInvocation="38056" standardDeviationMicrosecondsPerInvocation="3488"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="283" invocations="2" avgMicrosecondsPerInvocation="141952" maxMicrosecondsPerInvocation="260627" standardDeviationMicrosecondsPerInvocation="118675"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="199" invocations="472" avgMicrosecondsPerInvocation="423" maxMicrosecondsPerInvocation="23196" standardDeviationMicrosecondsPerInvocation="1488"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="84" invocations="24" avgMicrosecondsPerInvocation="3505" maxMicrosecondsPerInvocation="15626" standardDeviationMicrosecondsPerInvocation="4341"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="50" invocations="113" avgMicrosecondsPerInvocation="450" maxMicrosecondsPerInvocation="2729" standardDeviationMicrosecondsPerInvocation="405"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="48" invocations="437" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="5441" standardDeviationMicrosecondsPerInvocation="369"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="44" invocations="24" avgMicrosecondsPerInvocation="1858" maxMicrosecondsPerInvocation="30709" standardDeviationMicrosecondsPerInvocation="6059"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="42" invocations="24" avgMicrosecondsPerInvocation="1756" maxMicrosecondsPerInvocation="9929" standardDeviationMicrosecondsPerInvocation="2455"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1613087152310" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1613087152314" release="" codeSize="153" numClasses="7"/>
+    <AppVersion sequence="2" timestamp="1613088800226" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="3" timestamp="1613088823002" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1613088837492" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1613088882507" release="" codeSize="1" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1613089264603" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1613089334277" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1613089357616" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1613089738626" release="" codeSize="1" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1613089750218" release="" codeSize="1" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1613089813300" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1613089825069" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1613089846852" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1613089931688" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1613089941384" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1613090026520" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1613090161267" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1613091248812" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1613091492452" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1613091513242" release="" codeSize="68" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1613091719738" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1613091782704" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1613091799256" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1613092088796" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1613092094022" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1613092152187" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1613092275336" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1613092303010" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1613092314408" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1613092476353" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1613189282883" release="" codeSize="11" numClasses="1"/>
+  </History>
+</BugCollection>

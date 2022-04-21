@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=HW_Methods
+comment0.text=\r\n\ HW_Methods\ Assignment\r\n\r\n\ Martin\ Lillo\r\n\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ HW_Methods\r\n
+comment10.params=
+comment10.target=void\ MarioBoard3()
+comment11.params=
+comment11.target=void\ runProgramB()
+comment2.params=
+comment2.target=void\ segment1()
+comment3.params=
+comment3.target=void\ segment2()
+comment4.params=
+comment4.target=void\ segment3()
+comment5.params=
+comment5.target=void\ segment4()
+comment6.params=
+comment6.target=void\ segment5()
+comment7.params=
+comment7.target=void\ MarioBoard1()
+comment8.params=
+comment8.target=void\ MarioBoard2()
+comment9.params=
+comment9.target=void\ runProgramA()
+numComments=12

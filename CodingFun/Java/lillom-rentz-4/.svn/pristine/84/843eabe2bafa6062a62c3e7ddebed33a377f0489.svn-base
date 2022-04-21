@@ -1,0 +1,134 @@
+/**
+ * Abstract Vehicle class
+ * Assignment 3
+ */
+package model.vehicles;
+
+import java.math.BigDecimal;
+import java.util.Objects;
+
+/**
+ * @author Martin Lillo
+ * @version TCSS 305 Winter 2021 UW Tacoma (UWT)
+ */
+public abstract class AbstractVehicle {
+    
+    /**
+     * Base Fare for Vehicle.
+     */
+    public static final BigDecimal BASE_FARE = new BigDecimal(10);
+    
+    /**
+     * Default Vehicle ID.
+     */
+    private static int defaultID = 1;
+    
+    /**
+     * Vehicle ID variable.
+     */
+    private final int myVehicleID;
+    
+    /**
+     * Unique Vehicle Number.
+     */
+    private final String myVIN;
+    
+    /**
+     * Vehicle Name.
+     */
+    private final String myName;
+    
+    /**
+     * Rental Status.
+     */
+    private final boolean myRentalStatus;
+    
+    /**
+     * Vehicle Constructor.
+     * @param theName
+     * @param theVIN
+     * @param theRentalStatus
+     */
+    public AbstractVehicle(final String theName, final String theVIN, 
+                           final boolean theRentalStatus) {
+        this.myVehicleID = defaultID++;
+        this.myName = theName;
+        this.myVIN = theVIN;
+        this.myRentalStatus = theRentalStatus;
+    }
+    
+    /**
+     * Abstract Calculate Rental Amount.
+     * @return rental amount in BigDecimal
+     */
+    public abstract BigDecimal calculateRentalAmount();
+    
+    /**
+     * Abstract toString method.
+     * @return string output
+     */
+    public abstract String toString();
+    
+    /**
+     * Vehicle Equals method.
+     * Compare two vehicle objects
+     * @param theOtherVehicle
+     * @return boolean result
+     */
+    public boolean equals(final Object theOtherVehicle) {
+        boolean result = false;
+        
+        if (!(theOtherVehicle instanceof AbstractVehicle)) {
+            result = false;
+        } else {
+            final AbstractVehicle otherVehicle = (AbstractVehicle) theOtherVehicle;
+            result = myVehicleID == otherVehicle.myVehicleID
+                     && myVIN.equals(otherVehicle.myVIN)
+                     && myName.equals(otherVehicle.myName)
+                     && myRentalStatus == otherVehicle.myRentalStatus;
+        }
+        return result;
+    }
+    
+    /**
+     * Hash code method.
+     * @return int hash code
+     */
+    public int hashCode() {
+        return Objects.hash(myVehicleID, myVIN, myName, myRentalStatus);
+    }
+    
+    // getter methods for Vehicle class
+    
+    /**
+     * Gets vehicle ID.
+     * @return vehicle ID
+     */
+    public int getMyVehicleID() {
+        return myVehicleID;
+    }
+    
+    /**
+     * Gets vehicle name.
+     * @return vehicle name
+     */
+    public String getMyName() {
+        return myName;
+    }
+    
+    /**
+     * Gets vehicle VIN.
+     * @return vehicle VIN
+     */
+    public String getMyVIN() {
+        return myVIN;
+    }
+    
+    /**
+     * Gets rental status.
+     * @return rental status
+     */
+    public boolean isMyRentalStatus() {
+        return myRentalStatus;
+    }
+}

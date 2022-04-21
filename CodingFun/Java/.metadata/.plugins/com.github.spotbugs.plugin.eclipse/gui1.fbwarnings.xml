@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1614836266910" analysisTimestamp="1614836262310" release="">
+  <Project projectName="gui1">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui1\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui1\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\gui1\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Mar 2021 21:37:41 -0800" total_classes="24" referenced_classes="318" total_bugs="0" total_size="416" num_packages="9" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="16.72" clock_seconds="4.60" peak_mbytes="1028.00" alloc_mbytes="2048.00" gc_seconds="0.25">
+    <PackageStats package="buttonExample" total_bugs="0" total_types="2" total_size="24">
+      <ClassStats class="buttonExample.FrameExample" sourceFile="FrameExample.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="buttonExample.FrameExample$1" sourceFile="FrameExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="checkboxandradio" total_bugs="0" total_types="2" total_size="36">
+      <ClassStats class="checkboxandradio.FrameExample" sourceFile="FrameExample.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="checkboxandradio.FrameExample$1" sourceFile="FrameExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="exercises" total_bugs="0" total_types="2" total_size="58">
+      <ClassStats class="exercises.MyFrame" sourceFile="MyFrame.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="exercises.MyFrame$1" sourceFile="MyFrame.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="frameExample" total_bugs="0" total_types="4" total_size="41">
+      <ClassStats class="frameExample.Frame1" sourceFile="Frame1.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="frameExample.Frame1$1" sourceFile="Frame1.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="frameExample.Frame2" sourceFile="Frame2.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="frameExample.Frame2$1" sourceFile="Frame2.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fullDialogExample" total_bugs="0" total_types="2" total_size="94">
+      <ClassStats class="fullDialogExample.OptionPaneDemo" sourceFile="OptionPaneDemo.java" interface="false" size="86" bugs="0"/>
+      <ClassStats class="fullDialogExample.OptionPaneDemoMain" sourceFile="OptionPaneDemoMain.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fullFrameExample" total_bugs="0" total_types="3" total_size="34">
+      <ClassStats class="fullFrameExample.FirstJFrame" sourceFile="FirstJFrame.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="fullFrameExample.FirstJFrameMain" sourceFile="FirstJFrameMain.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="fullFrameExample.FirstJFrameMain$1" sourceFile="FirstJFrameMain.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="labelJtextFieldandArea" total_bugs="0" total_types="2" total_size="37">
+      <ClassStats class="labelJtextFieldandArea.FrameExample" sourceFile="FrameExample.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="labelJtextFieldandArea.FrameExample$1" sourceFile="FrameExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="optionPaneExample" total_bugs="0" total_types="5" total_size="61">
+      <ClassStats class="optionPaneExample.Dialog1" sourceFile="Dialog1.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="optionPaneExample.Frame1" sourceFile="Frame1.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="optionPaneExample.Frame1$1" sourceFile="Frame1.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="optionPaneExample.FrameExample" sourceFile="FrameExample.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="optionPaneExample.FrameExample$1" sourceFile="FrameExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="panelExample" total_bugs="0" total_types="2" total_size="31">
+      <ClassStats class="panelExample.FrameExample" sourceFile="FrameExample.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="panelExample.FrameExample$1" sourceFile="FrameExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1057" invocations="1615" avgMicrosecondsPerInvocation="654" maxMicrosecondsPerInvocation="26336" standardDeviationMicrosecondsPerInvocation="1920"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="595" invocations="318" avgMicrosecondsPerInvocation="1873" maxMicrosecondsPerInvocation="149760" standardDeviationMicrosecondsPerInvocation="9302"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="546" invocations="1619" avgMicrosecondsPerInvocation="337" maxMicrosecondsPerInvocation="78843" standardDeviationMicrosecondsPerInvocation="2250"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="444" invocations="318" avgMicrosecondsPerInvocation="1396" maxMicrosecondsPerInvocation="67822" standardDeviationMicrosecondsPerInvocation="4462"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="373" invocations="2" avgMicrosecondsPerInvocation="186576" maxMicrosecondsPerInvocation="254446" standardDeviationMicrosecondsPerInvocation="67870"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="240" invocations="699" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="33273" standardDeviationMicrosecondsPerInvocation="1401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="126" invocations="318" avgMicrosecondsPerInvocation="399" maxMicrosecondsPerInvocation="11659" standardDeviationMicrosecondsPerInvocation="1097"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="124" invocations="1568" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="31027" standardDeviationMicrosecondsPerInvocation="792"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614836266909" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

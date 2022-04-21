@@ -1,0 +1,2 @@
+I am doing an exercise on BufferedI/O Streams.
+Have a nice dayabcdefghijklmnopqrstuvwxyz

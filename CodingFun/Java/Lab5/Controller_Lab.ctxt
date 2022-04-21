@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Controller_Lab
+comment0.text=\r\n\ Martin\ Lillo\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=altitude
+comment2.target=double\ calcOrbitVelocity(int)
+comment3.params=altitude
+comment3.target=double\ calcOrbitalPeriod(int)
+comment4.params=altitude
+comment4.target=void\ chartOrbitalCharting(int)
+comment5.params=targetPeriod
+comment5.target=int\ calcOrbitalPosition(int)
+comment6.params=
+comment6.target=void\ function0()
+numComments=7

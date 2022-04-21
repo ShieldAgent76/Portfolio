@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Lab4d
+comment0.text=\r\n\ Martin\ Lillo\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=input
+comment2.target=boolean\ palindrome(java.lang.String)
+numComments=3

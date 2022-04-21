@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1609896997235" analysisTimestamp="1609896995615" release="">
+  <Project projectName="warnings-example">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\warnings-example\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\warnings-example\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\warnings-example\src</SrcDir>
+  </Project>
+  <BugInstance type="EQ_ALWAYS_TRUE" priority="1" rank="7" abbrev="Eq" category="CORRECTNESS" first="1">
+    <Class classname="many_warnings">
+      <SourceLine classname="many_warnings" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Class>
+    <Method classname="many_warnings" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="many_warnings" start="71" end="71" startBytecode="0" endBytecode="53" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Method>
+    <SourceLine classname="many_warnings" start="71" end="71" startBytecode="1" endBytecode="1" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="many_warnings">
+      <SourceLine classname="many_warnings" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Class>
+    <Method classname="many_warnings" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="many_warnings" start="71" end="71" startBytecode="0" endBytecode="53" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="1">
+    <Class classname="many_warnings">
+      <SourceLine classname="many_warnings" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Class>
+    <Method classname="many_warnings" name="complexMethod" signature="()I" isStatic="false">
+      <SourceLine classname="many_warnings" start="31" end="58" startBytecode="0" endBytecode="295" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Method>
+    <SourceLine classname="many_warnings" start="53" end="53" startBytecode="81" endBytecode="81" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    <LocalVariable name="i" register="6" pc="81" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="many_warnings" start="52" end="52" startBytecode="58" endBytecode="58" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_TOSTRING_COULD_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" first="1">
+    <Class classname="many_warnings">
+      <SourceLine classname="many_warnings" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Class>
+    <Method classname="many_warnings" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="many_warnings" start="67" end="67" startBytecode="0" endBytecode="43" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Method>
+    <SourceLine classname="many_warnings" start="67" end="67" startBytecode="1" endBytecode="1" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    <SourceLine classname="many_warnings" start="67" end="67" startBytecode="1" endBytecode="1" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="many_warnings">
+      <SourceLine classname="many_warnings" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Class>
+    <Field classname="many_warnings" name="a" signature="I" isStatic="false">
+      <SourceLine classname="many_warnings" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+    </Field>
+    <SourceLine classname="many_warnings" start="15" end="15" startBytecode="7" endBytecode="7" sourcefile="many_warnings.java" sourcepath="many_warnings.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 5 Jan 2021 17:25:36 -0800" total_classes="1" referenced_classes="15" total_bugs="5" total_size="40" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.98" clock_seconds="1.63" peak_mbytes="707.14" alloc_mbytes="2048.00" gc_seconds="0.11" priority_2="2" priority_1="3">
+    <PackageStats package="" total_bugs="5" total_types="1" total_size="40" priority_2="2" priority_1="3">
+      <ClassStats class="many_warnings" sourceFile="many_warnings.java" interface="false" size="40" bugs="5" priority_2="2" priority_1="3"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="604" invocations="378" avgMicrosecondsPerInvocation="1598" maxMicrosecondsPerInvocation="66264" standardDeviationMicrosecondsPerInvocation="4361"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="360" invocations="2" avgMicrosecondsPerInvocation="180288" maxMicrosecondsPerInvocation="308943" standardDeviationMicrosecondsPerInvocation="128655"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="110" invocations="379" avgMicrosecondsPerInvocation="290" maxMicrosecondsPerInvocation="3687" standardDeviationMicrosecondsPerInvocation="276"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="105" invocations="344" avgMicrosecondsPerInvocation="307" maxMicrosecondsPerInvocation="67284" standardDeviationMicrosecondsPerInvocation="3623"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="69" invocations="15" avgMicrosecondsPerInvocation="4603" maxMicrosecondsPerInvocation="20906" standardDeviationMicrosecondsPerInvocation="5714"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1609896997235" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

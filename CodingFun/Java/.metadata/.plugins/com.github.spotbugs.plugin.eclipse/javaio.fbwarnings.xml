@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="18" timestamp="1611283406633" analysisTimestamp="1611283406052" release="">
+  <Project projectName="javaio">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\javaio\bin\exercises\BufferedInputOutputStreamExercise.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\javaio\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\javaio\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="characterstreams.BufferedInputOutputStreamExample">
+      <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+    </Class>
+    <Method classname="characterstreams.BufferedInputOutputStreamExample" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" start="43" end="82" startBytecode="0" endBytecode="544" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="60" end="61" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" start="60" end="60" startBytecode="123" endBytecode="123" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+    <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" start="60" end="60" startBytecode="123" endBytecode="123" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="characterstreams.BufferedInputOutputStreamExample">
+      <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+    </Class>
+    <Method classname="characterstreams.BufferedInputOutputStreamExample" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" start="43" end="82" startBytecode="0" endBytecode="544" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="66" end="67" startBytecode="0" endBytecode="68" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" start="63" end="63" startBytecode="142" endBytecode="142" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+    <SourceLine classname="characterstreams.BufferedInputOutputStreamExample" start="63" end="63" startBytecode="142" endBytecode="142" sourcefile="BufferedInputOutputStreamExample.java" sourcepath="characterstreams/BufferedInputOutputStreamExample.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="6">
+    <Class classname="exercises.BufferedInputOutputStreamExercise">
+      <SourceLine classname="exercises.BufferedInputOutputStreamExercise" sourcefile="BufferedInputOutputStreamExercise.java" sourcepath="exercises/BufferedInputOutputStreamExercise.java"/>
+    </Class>
+    <Method classname="exercises.BufferedInputOutputStreamExercise" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.BufferedInputOutputStreamExercise" start="50" end="75" startBytecode="0" endBytecode="331" sourcefile="BufferedInputOutputStreamExercise.java" sourcepath="exercises/BufferedInputOutputStreamExercise.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="66" end="67" startBytecode="0" endBytecode="68" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="exercises.BufferedInputOutputStreamExercise" start="61" end="61" startBytecode="94" endBytecode="94" sourcefile="BufferedInputOutputStreamExercise.java" sourcepath="exercises/BufferedInputOutputStreamExercise.java"/>
+    <SourceLine classname="exercises.BufferedInputOutputStreamExercise" start="61" end="61" startBytecode="94" endBytecode="94" sourcefile="BufferedInputOutputStreamExercise.java" sourcepath="exercises/BufferedInputOutputStreamExercise.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="10">
+    <Class classname="exercises.ScannerExercise">
+      <SourceLine classname="exercises.ScannerExercise" sourcefile="ScannerExercise.java" sourcepath="exercises/ScannerExercise.java"/>
+    </Class>
+    <Method classname="exercises.ScannerExercise" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.ScannerExercise" start="40" end="52" startBytecode="0" endBytecode="247" sourcefile="ScannerExercise.java" sourcepath="exercises/ScannerExercise.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="exercises.ScannerExercise" start="40" end="40" startBytecode="7" endBytecode="7" sourcefile="ScannerExercise.java" sourcepath="exercises/ScannerExercise.java"/>
+    <SourceLine classname="exercises.ScannerExercise" start="40" end="40" startBytecode="7" endBytecode="7" sourcefile="ScannerExercise.java" sourcepath="exercises/ScannerExercise.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="standardStreams.ScannerExample">
+      <SourceLine classname="standardStreams.ScannerExample" sourcefile="ScannerExample.java" sourcepath="standardStreams/ScannerExample.java"/>
+    </Class>
+    <Method classname="standardStreams.ScannerExample" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="standardStreams.ScannerExample" start="38" end="54" startBytecode="0" endBytecode="240" sourcefile="ScannerExample.java" sourcepath="standardStreams/ScannerExample.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="standardStreams.ScannerExample" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="ScannerExample.java" sourcepath="standardStreams/ScannerExample.java"/>
+    <SourceLine classname="standardStreams.ScannerExample" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="ScannerExample.java" sourcepath="standardStreams/ScannerExample.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 21 Jan 2021 18:43:26 -0800" total_classes="1" referenced_classes="20" total_bugs="5" total_size="20" num_packages="3" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.62" clock_seconds="0.58" peak_mbytes="936.92" alloc_mbytes="2048.00" gc_seconds="0.04" priority_1="5">
+    <PackageStats package="exercises" total_bugs="2" total_types="2" total_size="20" priority_1="2">
+      <ClassStats class="exercises.BufferedInputOutputStreamExercise" sourceFile="BufferedInputOutputStreamExercise.java" interface="false" size="20" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="206" invocations="393" avgMicrosecondsPerInvocation="524" maxMicrosecondsPerInvocation="42936" standardDeviationMicrosecondsPerInvocation="2396"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="95" invocations="2" avgMicrosecondsPerInvocation="47599" maxMicrosecondsPerInvocation="79667" standardDeviationMicrosecondsPerInvocation="32068"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="86" invocations="394" avgMicrosecondsPerInvocation="219" maxMicrosecondsPerInvocation="1152" standardDeviationMicrosecondsPerInvocation="117"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="29" invocations="20" avgMicrosecondsPerInvocation="1490" maxMicrosecondsPerInvocation="8186" standardDeviationMicrosecondsPerInvocation="2274"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="21" invocations="359" avgMicrosecondsPerInvocation="60" maxMicrosecondsPerInvocation="1123" standardDeviationMicrosecondsPerInvocation="108"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611102192378" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1611102192378" release="" codeSize="87" numClasses="6"/>
+    <AppVersion sequence="2" timestamp="1611273734388" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1611273885078" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1611274498708" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1611274506458" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1611275193985" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1611275255750" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1611275366856" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1611275443090" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1611276448960" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1611276703423" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1611276849142" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1611278560129" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1611278568038" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1611282893214" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1611283322800" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1611283397432" release="" codeSize="18" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1615494018627" analysisTimestamp="1615493995198" release="">
+  <Project projectName="TimerExample">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\TimerExample\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\TimerExample\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\TimerExample\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="timer.TimerExample$TimeListener">
+      <SourceLine classname="timer.TimerExample$TimeListener" sourcefile="TimerExample.java" sourcepath="timer/TimerExample.java"/>
+    </Class>
+    <Method classname="timer.TimerExample$TimeListener" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="timer.TimerExample$TimeListener" start="101" end="104" startBytecode="0" endBytecode="92" sourcefile="TimerExample.java" sourcepath="timer/TimerExample.java"/>
+    </Method>
+    <SourceLine classname="timer.TimerExample$TimeListener" start="101" end="101" startBytecode="18" endBytecode="18" sourcefile="TimerExample.java" sourcepath="timer/TimerExample.java"/>
+    <SourceLine classname="timer.TimerExample$TimeListener" start="101" end="101" startBytecode="18" endBytecode="18" sourcefile="TimerExample.java" sourcepath="timer/TimerExample.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 11 Mar 2021 12:19:54 -0800" total_classes="3" referenced_classes="286" total_bugs="1" total_size="40" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="57.47" clock_seconds="23.46" peak_mbytes="766.43" alloc_mbytes="2048.00" gc_seconds="0.71" priority_2="1">
+    <PackageStats package="timer" total_bugs="1" total_types="3" total_size="40" priority_2="1">
+      <ClassStats class="timer.TimerExample" sourceFile="TimerExample.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="timer.TimerExample$1" sourceFile="TimerExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="timer.TimerExample$TimeListener" sourceFile="TimerExample.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="11534" invocations="2" avgMicrosecondsPerInvocation="5767413" maxMicrosecondsPerInvocation="11414168" standardDeviationMicrosecondsPerInvocation="5646754"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="3388" invocations="1520" avgMicrosecondsPerInvocation="2229" maxMicrosecondsPerInvocation="240691" standardDeviationMicrosecondsPerInvocation="12479"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2718" invocations="1524" avgMicrosecondsPerInvocation="1783" maxMicrosecondsPerInvocation="124658" standardDeviationMicrosecondsPerInvocation="8311"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1615494018627" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

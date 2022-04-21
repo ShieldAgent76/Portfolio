@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="8" timestamp="1611022426952" analysisTimestamp="1611022425673" release="">
+  <Project projectName="Equals&amp;Hash&amp;ToString">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Equals&amp;Hash&amp;ToString\bin\exercise\Point.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Equals&amp;Hash&amp;ToString\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Equals&amp;Hash&amp;ToString\src</SrcDir>
+  </Project>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="equals.HelloWorld">
+      <SourceLine classname="equals.HelloWorld" sourcefile="HelloWorld.java" sourcepath="equals/HelloWorld.java"/>
+    </Class>
+    <Method classname="equals.HelloWorld" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="equals.HelloWorld" start="74" end="91" startBytecode="0" endBytecode="177" sourcefile="HelloWorld.java" sourcepath="equals/HelloWorld.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="CN_IDIOM" priority="2" rank="16" abbrev="CN" category="BAD_PRACTICE" first="1">
+    <Class classname="exercise.Point">
+      <SourceLine classname="exercise.Point" start="59" end="227" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="EC_NULL_ARG" priority="2" rank="9" abbrev="EC" category="CORRECTNESS" first="1">
+    <Class classname="exercise.Point">
+      <SourceLine classname="exercise.Point" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+    </Class>
+    <Method classname="exercise.Point" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercise.Point" start="211" end="227" startBytecode="0" endBytecode="65" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+    </Method>
+    <SourceLine classname="exercise.Point" start="219" end="219" startBytecode="77" endBytecode="77" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+    <SourceLine classname="exercise.Point" start="219" end="219" startBytecode="77" endBytecode="77" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="3" last="4" removedByChange="true">
+    <Class classname="exercise.Point">
+      <SourceLine classname="exercise.Point" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+    </Class>
+    <Method classname="exercise.Point" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="exercise.Point" start="189" end="202" startBytecode="0" endBytecode="214" sourcefile="Point.java" sourcepath="exercise/Point.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="tostring.HelloWorld">
+      <SourceLine classname="tostring.HelloWorld" sourcefile="HelloWorld.java" sourcepath="tostring/HelloWorld.java"/>
+    </Class>
+    <Method classname="tostring.HelloWorld" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="tostring.HelloWorld" start="73" end="88" startBytecode="0" endBytecode="159" sourcefile="HelloWorld.java" sourcepath="tostring/HelloWorld.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 18 Jan 2021 18:13:45 -0800" total_classes="1" referenced_classes="19" total_bugs="4" total_size="78" num_packages="3" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.53" clock_seconds="1.28" peak_mbytes="728.87" alloc_mbytes="2048.00" gc_seconds="0.03" priority_2="2" priority_1="2">
+    <PackageStats package="exercise" total_bugs="2" total_types="1" total_size="78" priority_2="2">
+      <ClassStats class="exercise.Point" sourceFile="Point.java" interface="false" size="78" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="496" invocations="395" avgMicrosecondsPerInvocation="1258" maxMicrosecondsPerInvocation="41861" standardDeviationMicrosecondsPerInvocation="3055"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="198" invocations="2" avgMicrosecondsPerInvocation="99059" maxMicrosecondsPerInvocation="179840" standardDeviationMicrosecondsPerInvocation="80781"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="87" invocations="396" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="2124" standardDeviationMicrosecondsPerInvocation="115"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="72" invocations="19" avgMicrosecondsPerInvocation="3813" maxMicrosecondsPerInvocation="16691" standardDeviationMicrosecondsPerInvocation="4836"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="46" invocations="74" avgMicrosecondsPerInvocation="623" maxMicrosecondsPerInvocation="3846" standardDeviationMicrosecondsPerInvocation="596"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="31" invocations="19" avgMicrosecondsPerInvocation="1670" maxMicrosecondsPerInvocation="11248" standardDeviationMicrosecondsPerInvocation="2572"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="30" invocations="361" avgMicrosecondsPerInvocation="83" maxMicrosecondsPerInvocation="917" standardDeviationMicrosecondsPerInvocation="129"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1610496973134" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1610496973138" release="" codeSize="167" numClasses="4"/>
+    <AppVersion sequence="2" timestamp="1610497776898" release="" codeSize="62" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1610500086271" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1610500221453" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1610500942601" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1610500971270" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1611022420288" release="" codeSize="78" numClasses="1"/>
+  </History>
+</BugCollection>

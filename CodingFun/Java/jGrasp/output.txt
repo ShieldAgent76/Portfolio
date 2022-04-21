@@ -1,0 +1,600 @@
+    TEST 1: where n = 1
+    Initial State:
+    Rod A:1	
+    Rod B:
+    Rod C:
+    
+    Final State:
+    Rod A:
+    Rod B:
+    Rod C:1	
+    
+    TEST 2: where n = 4
+    Initial State:
+    Rod A:4	3	2	1	
+    Rod B:
+    Rod C:
+    
+    Rod A:3	2	1	
+    Rod B:4	
+    Rod C:
+    
+    Rod A:2	1	
+    Rod B:4	
+    Rod C:3	
+    
+    Rod A:2	1	
+    Rod B:
+    Rod C:4	3	
+    
+    Rod A:1	
+    Rod B:2	
+    Rod C:4	3	
+    
+    Rod A:4	1	
+    Rod B:2	
+    Rod C:3	
+    
+    Rod A:4	1	
+    Rod B:3	2	
+    Rod C:
+    
+    Rod A:1	
+    Rod B:4	3	2	
+    Rod C:
+    
+    Rod A:
+    Rod B:4	3	2	
+    Rod C:1	
+    
+    Rod A:
+    Rod B:3	2	
+    Rod C:4	1	
+    
+    Rod A:3	
+    Rod B:2	
+    Rod C:4	1	
+    
+    Rod A:4	3	
+    Rod B:2	
+    Rod C:1	
+    
+    Rod A:4	3	
+    Rod B:
+    Rod C:2	1	
+    
+    Rod A:3	
+    Rod B:4	
+    Rod C:2	1	
+    
+    Rod A:
+    Rod B:4	
+    Rod C:3	2	1	
+    
+    Rod A:
+    Rod B:
+    Rod C:4	3	2	1	
+    
+    Final State:
+    Rod A:
+    Rod B:
+    Rod C:4	3	2	1	
+    
+    TEST 3: where n = 7
+    Initial State:
+    Rod A:7	6	5	4	3	2	1	
+    Rod B:
+    Rod C:
+    
+    Rod A:6	5	4	3	2	1	
+    Rod B:
+    Rod C:7	
+    
+    Rod A:5	4	3	2	1	
+    Rod B:6	
+    Rod C:7	
+    
+    Rod A:5	4	3	2	1	
+    Rod B:7	6	
+    Rod C:
+    
+    Rod A:4	3	2	1	
+    Rod B:7	6	
+    Rod C:5	
+    
+    Rod A:7	4	3	2	1	
+    Rod B:6	
+    Rod C:5	
+    
+    Rod A:7	4	3	2	1	
+    Rod B:
+    Rod C:6	5	
+    
+    Rod A:4	3	2	1	
+    Rod B:
+    Rod C:7	6	5	
+    
+    Rod A:3	2	1	
+    Rod B:4	
+    Rod C:7	6	5	
+    
+    Rod A:3	2	1	
+    Rod B:7	4	
+    Rod C:6	5	
+    
+    Rod A:6	3	2	1	
+    Rod B:7	4	
+    Rod C:5	
+    
+    Rod A:7	6	3	2	1	
+    Rod B:4	
+    Rod C:5	
+    
+    Rod A:7	6	3	2	1	
+    Rod B:5	4	
+    Rod C:
+    
+    Rod A:6	3	2	1	
+    Rod B:5	4	
+    Rod C:7	
+    
+    Rod A:3	2	1	
+    Rod B:6	5	4	
+    Rod C:7	
+    
+    Rod A:3	2	1	
+    Rod B:7	6	5	4	
+    Rod C:
+    
+    Rod A:2	1	
+    Rod B:7	6	5	4	
+    Rod C:3	
+    
+    Rod A:7	2	1	
+    Rod B:6	5	4	
+    Rod C:3	
+    
+    Rod A:7	2	1	
+    Rod B:5	4	
+    Rod C:6	3	
+    
+    Rod A:2	1	
+    Rod B:5	4	
+    Rod C:7	6	3	
+    
+    Rod A:5	2	1	
+    Rod B:4	
+    Rod C:7	6	3	
+    
+    Rod A:5	2	1	
+    Rod B:7	4	
+    Rod C:6	3	
+    
+    Rod A:6	5	2	1	
+    Rod B:7	4	
+    Rod C:3	
+    
+    Rod A:7	6	5	2	1	
+    Rod B:4	
+    Rod C:3	
+    
+    Rod A:7	6	5	2	1	
+    Rod B:
+    Rod C:4	3	
+    
+    Rod A:6	5	2	1	
+    Rod B:
+    Rod C:7	4	3	
+    
+    Rod A:5	2	1	
+    Rod B:6	
+    Rod C:7	4	3	
+    
+    Rod A:5	2	1	
+    Rod B:7	6	
+    Rod C:4	3	
+    
+    Rod A:2	1	
+    Rod B:7	6	
+    Rod C:5	4	3	
+    
+    Rod A:7	2	1	
+    Rod B:6	
+    Rod C:5	4	3	
+    
+    Rod A:7	2	1	
+    Rod B:
+    Rod C:6	5	4	3	
+    
+    Rod A:2	1	
+    Rod B:
+    Rod C:7	6	5	4	3	
+    
+    Rod A:1	
+    Rod B:2	
+    Rod C:7	6	5	4	3	
+    
+    Rod A:1	
+    Rod B:7	2	
+    Rod C:6	5	4	3	
+    
+    Rod A:6	1	
+    Rod B:7	2	
+    Rod C:5	4	3	
+    
+    Rod A:7	6	1	
+    Rod B:2	
+    Rod C:5	4	3	
+    
+    Rod A:7	6	1	
+    Rod B:5	2	
+    Rod C:4	3	
+    
+    Rod A:6	1	
+    Rod B:5	2	
+    Rod C:7	4	3	
+    
+    Rod A:1	
+    Rod B:6	5	2	
+    Rod C:7	4	3	
+    
+    Rod A:1	
+    Rod B:7	6	5	2	
+    Rod C:4	3	
+    
+    Rod A:4	1	
+    Rod B:7	6	5	2	
+    Rod C:3	
+    
+    Rod A:7	4	1	
+    Rod B:6	5	2	
+    Rod C:3	
+    
+    Rod A:7	4	1	
+    Rod B:5	2	
+    Rod C:6	3	
+    
+    Rod A:4	1	
+    Rod B:5	2	
+    Rod C:7	6	3	
+    
+    Rod A:5	4	1	
+    Rod B:2	
+    Rod C:7	6	3	
+    
+    Rod A:5	4	1	
+    Rod B:7	2	
+    Rod C:6	3	
+    
+    Rod A:6	5	4	1	
+    Rod B:7	2	
+    Rod C:3	
+    
+    Rod A:7	6	5	4	1	
+    Rod B:2	
+    Rod C:3	
+    
+    Rod A:7	6	5	4	1	
+    Rod B:3	2	
+    Rod C:
+    
+    Rod A:6	5	4	1	
+    Rod B:3	2	
+    Rod C:7	
+    
+    Rod A:5	4	1	
+    Rod B:6	3	2	
+    Rod C:7	
+    
+    Rod A:5	4	1	
+    Rod B:7	6	3	2	
+    Rod C:
+    
+    Rod A:4	1	
+    Rod B:7	6	3	2	
+    Rod C:5	
+    
+    Rod A:7	4	1	
+    Rod B:6	3	2	
+    Rod C:5	
+    
+    Rod A:7	4	1	
+    Rod B:3	2	
+    Rod C:6	5	
+    
+    Rod A:4	1	
+    Rod B:3	2	
+    Rod C:7	6	5	
+    
+    Rod A:1	
+    Rod B:4	3	2	
+    Rod C:7	6	5	
+    
+    Rod A:1	
+    Rod B:7	4	3	2	
+    Rod C:6	5	
+    
+    Rod A:6	1	
+    Rod B:7	4	3	2	
+    Rod C:5	
+    
+    Rod A:7	6	1	
+    Rod B:4	3	2	
+    Rod C:5	
+    
+    Rod A:7	6	1	
+    Rod B:5	4	3	2	
+    Rod C:
+    
+    Rod A:6	1	
+    Rod B:5	4	3	2	
+    Rod C:7	
+    
+    Rod A:1	
+    Rod B:6	5	4	3	2	
+    Rod C:7	
+    
+    Rod A:1	
+    Rod B:7	6	5	4	3	2	
+    Rod C:
+    
+    Rod A:
+    Rod B:7	6	5	4	3	2	
+    Rod C:1	
+    
+    Rod A:7	
+    Rod B:6	5	4	3	2	
+    Rod C:1	
+    
+    Rod A:7	
+    Rod B:5	4	3	2	
+    Rod C:6	1	
+    
+    Rod A:
+    Rod B:5	4	3	2	
+    Rod C:7	6	1	
+    
+    Rod A:5	
+    Rod B:4	3	2	
+    Rod C:7	6	1	
+    
+    Rod A:5	
+    Rod B:7	4	3	2	
+    Rod C:6	1	
+    
+    Rod A:6	5	
+    Rod B:7	4	3	2	
+    Rod C:1	
+    
+    Rod A:7	6	5	
+    Rod B:4	3	2	
+    Rod C:1	
+    
+    Rod A:7	6	5	
+    Rod B:3	2	
+    Rod C:4	1	
+    
+    Rod A:6	5	
+    Rod B:3	2	
+    Rod C:7	4	1	
+    
+    Rod A:5	
+    Rod B:6	3	2	
+    Rod C:7	4	1	
+    
+    Rod A:5	
+    Rod B:7	6	3	2	
+    Rod C:4	1	
+    
+    Rod A:
+    Rod B:7	6	3	2	
+    Rod C:5	4	1	
+    
+    Rod A:7	
+    Rod B:6	3	2	
+    Rod C:5	4	1	
+    
+    Rod A:7	
+    Rod B:3	2	
+    Rod C:6	5	4	1	
+    
+    Rod A:
+    Rod B:3	2	
+    Rod C:7	6	5	4	1	
+    
+    Rod A:3	
+    Rod B:2	
+    Rod C:7	6	5	4	1	
+    
+    Rod A:3	
+    Rod B:7	2	
+    Rod C:6	5	4	1	
+    
+    Rod A:6	3	
+    Rod B:7	2	
+    Rod C:5	4	1	
+    
+    Rod A:7	6	3	
+    Rod B:2	
+    Rod C:5	4	1	
+    
+    Rod A:7	6	3	
+    Rod B:5	2	
+    Rod C:4	1	
+    
+    Rod A:6	3	
+    Rod B:5	2	
+    Rod C:7	4	1	
+    
+    Rod A:3	
+    Rod B:6	5	2	
+    Rod C:7	4	1	
+    
+    Rod A:3	
+    Rod B:7	6	5	2	
+    Rod C:4	1	
+    
+    Rod A:4	3	
+    Rod B:7	6	5	2	
+    Rod C:1	
+    
+    Rod A:7	4	3	
+    Rod B:6	5	2	
+    Rod C:1	
+    
+    Rod A:7	4	3	
+    Rod B:5	2	
+    Rod C:6	1	
+    
+    Rod A:4	3	
+    Rod B:5	2	
+    Rod C:7	6	1	
+    
+    Rod A:5	4	3	
+    Rod B:2	
+    Rod C:7	6	1	
+    
+    Rod A:5	4	3	
+    Rod B:7	2	
+    Rod C:6	1	
+    
+    Rod A:6	5	4	3	
+    Rod B:7	2	
+    Rod C:1	
+    
+    Rod A:7	6	5	4	3	
+    Rod B:2	
+    Rod C:1	
+    
+    Rod A:7	6	5	4	3	
+    Rod B:
+    Rod C:2	1	
+    
+    Rod A:6	5	4	3	
+    Rod B:
+    Rod C:7	2	1	
+    
+    Rod A:5	4	3	
+    Rod B:6	
+    Rod C:7	2	1	
+    
+    Rod A:5	4	3	
+    Rod B:7	6	
+    Rod C:2	1	
+    
+    Rod A:4	3	
+    Rod B:7	6	
+    Rod C:5	2	1	
+    
+    Rod A:7	4	3	
+    Rod B:6	
+    Rod C:5	2	1	
+    
+    Rod A:7	4	3	
+    Rod B:
+    Rod C:6	5	2	1	
+    
+    Rod A:4	3	
+    Rod B:
+    Rod C:7	6	5	2	1	
+    
+    Rod A:3	
+    Rod B:4	
+    Rod C:7	6	5	2	1	
+    
+    Rod A:3	
+    Rod B:7	4	
+    Rod C:6	5	2	1	
+    
+    Rod A:6	3	
+    Rod B:7	4	
+    Rod C:5	2	1	
+    
+    Rod A:7	6	3	
+    Rod B:4	
+    Rod C:5	2	1	
+    
+    Rod A:7	6	3	
+    Rod B:5	4	
+    Rod C:2	1	
+    
+    Rod A:6	3	
+    Rod B:5	4	
+    Rod C:7	2	1	
+    
+    Rod A:3	
+    Rod B:6	5	4	
+    Rod C:7	2	1	
+    
+    Rod A:3	
+    Rod B:7	6	5	4	
+    Rod C:2	1	
+    
+    Rod A:
+    Rod B:7	6	5	4	
+    Rod C:3	2	1	
+    
+    Rod A:7	
+    Rod B:6	5	4	
+    Rod C:3	2	1	
+    
+    Rod A:7	
+    Rod B:5	4	
+    Rod C:6	3	2	1	
+    
+    Rod A:
+    Rod B:5	4	
+    Rod C:7	6	3	2	1	
+    
+    Rod A:5	
+    Rod B:4	
+    Rod C:7	6	3	2	1	
+    
+    Rod A:5	
+    Rod B:7	4	
+    Rod C:6	3	2	1	
+    
+    Rod A:6	5	
+    Rod B:7	4	
+    Rod C:3	2	1	
+    
+    Rod A:7	6	5	
+    Rod B:4	
+    Rod C:3	2	1	
+    
+    Rod A:7	6	5	
+    Rod B:
+    Rod C:4	3	2	1	
+    
+    Rod A:6	5	
+    Rod B:
+    Rod C:7	4	3	2	1	
+    
+    Rod A:5	
+    Rod B:6	
+    Rod C:7	4	3	2	1	
+    
+    Rod A:5	
+    Rod B:7	6	
+    Rod C:4	3	2	1	
+    
+    Rod A:
+    Rod B:7	6	
+    Rod C:5	4	3	2	1	
+    
+    Rod A:7	
+    Rod B:6	
+    Rod C:5	4	3	2	1	
+    
+    Rod A:7	
+    Rod B:
+    Rod C:6	5	4	3	2	1	
+    
+    Rod A:
+    Rod B:
+    Rod C:7	6	5	4	3	2	1	
+    
+    Final State:
+    Rod A:
+    Rod B:
+    Rod C:7	6	5	4	3	2	1

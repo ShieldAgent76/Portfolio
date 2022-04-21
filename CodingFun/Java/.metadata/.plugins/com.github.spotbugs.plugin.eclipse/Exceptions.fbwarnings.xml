@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="2" timestamp="1611283501105" analysisTimestamp="1611283500553" release="">
+  <Project projectName="Exceptions">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Exceptions\bin\exercises\Point.class</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Exceptions\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\Exceptions\src</SrcDir>
+  </Project>
+  <BugInstance type="RANGE_ARRAY_INDEX" priority="2" rank="7" abbrev="RANGE" category="CORRECTNESS" first="1">
+    <Class classname="exceptions.PointMain">
+      <SourceLine classname="exceptions.PointMain" sourcefile="PointMain.java" sourcepath="exceptions/PointMain.java"/>
+    </Class>
+    <Method classname="exceptions.PointMain" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exceptions.PointMain" start="37" end="55" startBytecode="0" endBytecode="255" sourcefile="PointMain.java" sourcepath="exceptions/PointMain.java"/>
+    </Method>
+    <SourceLine classname="exceptions.PointMain" start="39" end="39" startBytecode="12" endBytecode="12" sourcefile="PointMain.java" sourcepath="exceptions/PointMain.java"/>
+    <Int value="10" role="INT_VALUE"/>
+    <Int value="9" role="INT_MAX_VALUE"/>
+    <SourceLine classname="exceptions.PointMain" start="39" end="39" startBytecode="12" endBytecode="12" sourcefile="PointMain.java" sourcepath="exceptions/PointMain.java"/>
+    <SourceLine classname="exceptions.PointMain" start="39" end="39" startBytecode="12" endBytecode="12" sourcefile="PointMain.java" sourcepath="exceptions/PointMain.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="exercises.Point">
+      <SourceLine classname="exercises.Point" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Class>
+    <Method classname="exercises.Point" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="exercises.Point" start="41" end="61" startBytecode="0" endBytecode="362" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    </Method>
+    <SourceLine classname="exercises.Point" start="55" end="55" startBytecode="85" endBytecode="85" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+    <SourceLine classname="exercises.Point" start="55" end="55" startBytecode="85" endBytecode="85" sourcefile="Point.java" sourcepath="exercises/Point.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 21 Jan 2021 18:45:00 -0800" total_classes="1" referenced_classes="20" total_bugs="2" total_size="17" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.41" clock_seconds="0.56" peak_mbytes="938.85" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="2">
+    <PackageStats package="exercises" total_bugs="1" total_types="1" total_size="17" priority_2="1">
+      <ClassStats class="exercises.Point" sourceFile="Point.java" interface="false" size="17" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="120" invocations="407" avgMicrosecondsPerInvocation="296" maxMicrosecondsPerInvocation="3834" standardDeviationMicrosecondsPerInvocation="565"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="89" invocations="2" avgMicrosecondsPerInvocation="44763" maxMicrosecondsPerInvocation="78496" standardDeviationMicrosecondsPerInvocation="33732"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="69" invocations="408" avgMicrosecondsPerInvocation="170" maxMicrosecondsPerInvocation="481" standardDeviationMicrosecondsPerInvocation="58"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="34" invocations="20" avgMicrosecondsPerInvocation="1711" maxMicrosecondsPerInvocation="6668" standardDeviationMicrosecondsPerInvocation="2131"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="30" invocations="83" avgMicrosecondsPerInvocation="362" maxMicrosecondsPerInvocation="2243" standardDeviationMicrosecondsPerInvocation="337"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="20" avgMicrosecondsPerInvocation="1111" maxMicrosecondsPerInvocation="8477" standardDeviationMicrosecondsPerInvocation="1823"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="16" invocations="373" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="1168" standardDeviationMicrosecondsPerInvocation="89"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611210993437" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1611210993438" release="" codeSize="61" numClasses="4"/>
+  </History>
+</BugCollection>

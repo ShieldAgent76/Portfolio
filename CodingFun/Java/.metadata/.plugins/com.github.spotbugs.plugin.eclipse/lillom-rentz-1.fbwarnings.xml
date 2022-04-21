@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1611885790286" analysisTimestamp="1611885788183" release="">
+  <Project projectName="lillom-rentz-1">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-1\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-1\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\lillom-rentz-1\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="model.Registration">
+      <SourceLine classname="model.Registration" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    </Class>
+    <Method classname="model.Registration" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="model.Registration" start="30" end="35" startBytecode="0" endBytecode="49" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="model.Registration" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+    <SourceLine classname="model.Registration" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="Registration.java" sourcepath="model/Registration.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="model.User">
+      <SourceLine classname="model.User" sourcefile="User.java" sourcepath="model/User.java"/>
+    </Class>
+    <Field classname="model.User" name="myPasswordEmpty" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.User" sourcefile="User.java" sourcepath="model/User.java"/>
+    </Field>
+    <SourceLine classname="model.User" start="41" end="41" startBytecode="13" endBytecode="13" sourcefile="User.java" sourcepath="model/User.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="model.User">
+      <SourceLine classname="model.User" sourcefile="User.java" sourcepath="model/User.java"/>
+    </Class>
+    <Field classname="model.User" name="myUsernameEmpty" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.User" sourcefile="User.java" sourcepath="model/User.java"/>
+    </Field>
+    <SourceLine classname="model.User" start="36" end="36" startBytecode="7" endBytecode="7" sourcefile="User.java" sourcepath="model/User.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="utility.FileLoader">
+      <SourceLine classname="utility.FileLoader" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Class>
+    <Method classname="utility.FileLoader" name="readItemsFromFile" signature="(Ljava/lang/String;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="utility.FileLoader" start="43" end="61" startBytecode="0" endBytecode="504" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="75" end="76" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="utility.FileLoader" start="46" end="46" startBytecode="41" endBytecode="41" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    <SourceLine classname="utility.FileLoader" start="46" end="46" startBytecode="41" endBytecode="41" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="utility.FileLoader">
+      <SourceLine classname="utility.FileLoader" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Class>
+    <Method classname="utility.FileLoader" name="writeUserToFile" signature="(Ljava/lang/String;Lmodel/User;)V" isStatic="true">
+      <SourceLine classname="utility.FileLoader" start="72" end="84" startBytecode="0" endBytecode="368" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="82" end="83" startBytecode="0" endBytecode="79" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="utility.FileLoader" start="72" end="72" startBytecode="14" endBytecode="14" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+    <SourceLine classname="utility.FileLoader" start="72" end="72" startBytecode="14" endBytecode="14" sourcefile="FileLoader.java" sourcepath="utility/FileLoader.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 28 Jan 2021 18:03:07 -0800" total_classes="4" referenced_classes="38" total_bugs="5" total_size="195" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="7.38" clock_seconds="2.11" peak_mbytes="558.45" alloc_mbytes="2048.00" gc_seconds="0.04" priority_2="2" priority_1="3">
+    <PackageStats package="model" total_bugs="3" total_types="3" total_size="164" priority_2="2" priority_1="1">
+      <ClassStats class="model.Registration" sourceFile="Registration.java" interface="false" size="94" bugs="1" priority_1="1"/>
+      <ClassStats class="model.RentalMain" sourceFile="RentalMain.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="model.User" sourceFile="User.java" interface="false" size="62" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="utility" total_bugs="2" total_types="1" total_size="31" priority_1="2">
+      <ClassStats class="utility.FileLoader" sourceFile="FileLoader.java" interface="false" size="31" bugs="2" priority_1="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="378" invocations="2" avgMicrosecondsPerInvocation="189168" maxMicrosecondsPerInvocation="225103" standardDeviationMicrosecondsPerInvocation="35935"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="231" invocations="534" avgMicrosecondsPerInvocation="434" maxMicrosecondsPerInvocation="30328" standardDeviationMicrosecondsPerInvocation="1483"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="180" invocations="535" avgMicrosecondsPerInvocation="336" maxMicrosecondsPerInvocation="19096" standardDeviationMicrosecondsPerInvocation="1220"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="119" invocations="38" avgMicrosecondsPerInvocation="3156" maxMicrosecondsPerInvocation="41281" standardDeviationMicrosecondsPerInvocation="6919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="110" invocations="172" avgMicrosecondsPerInvocation="644" maxMicrosecondsPerInvocation="11197" standardDeviationMicrosecondsPerInvocation="1201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="69" invocations="38" avgMicrosecondsPerInvocation="1832" maxMicrosecondsPerInvocation="11343" standardDeviationMicrosecondsPerInvocation="2654"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="63" invocations="4" avgMicrosecondsPerInvocation="15902" maxMicrosecondsPerInvocation="61327" standardDeviationMicrosecondsPerInvocation="26230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="58" invocations="59" avgMicrosecondsPerInvocation="994" maxMicrosecondsPerInvocation="46714" standardDeviationMicrosecondsPerInvocation="6009"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="55" invocations="22" avgMicrosecondsPerInvocation="2516" maxMicrosecondsPerInvocation="18745" standardDeviationMicrosecondsPerInvocation="4497"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="50" invocations="22" avgMicrosecondsPerInvocation="2309" maxMicrosecondsPerInvocation="18572" standardDeviationMicrosecondsPerInvocation="4234"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="49" invocations="24" avgMicrosecondsPerInvocation="2081" maxMicrosecondsPerInvocation="9642" standardDeviationMicrosecondsPerInvocation="2825"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="44" invocations="30" avgMicrosecondsPerInvocation="1487" maxMicrosecondsPerInvocation="5512" standardDeviationMicrosecondsPerInvocation="925"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="42" invocations="24" avgMicrosecondsPerInvocation="1765" maxMicrosecondsPerInvocation="15455" standardDeviationMicrosecondsPerInvocation="3317"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="34" invocations="499" avgMicrosecondsPerInvocation="69" maxMicrosecondsPerInvocation="2049" standardDeviationMicrosecondsPerInvocation="169"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="30" invocations="4" avgMicrosecondsPerInvocation="7554" maxMicrosecondsPerInvocation="23177" standardDeviationMicrosecondsPerInvocation="9462"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="29" invocations="4" avgMicrosecondsPerInvocation="7495" maxMicrosecondsPerInvocation="22943" standardDeviationMicrosecondsPerInvocation="9358"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="29" invocations="367" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="13797" standardDeviationMicrosecondsPerInvocation="830"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611885790286" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

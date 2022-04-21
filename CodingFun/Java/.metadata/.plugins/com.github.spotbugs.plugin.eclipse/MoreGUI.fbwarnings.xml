@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1615494086317" analysisTimestamp="1615494081081" release="">
+  <Project projectName="MoreGUI">
+    <Jar>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\MoreGUI\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\MoreGUI\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\marti\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\University of Washington Tacoma\Programming Practicum\MoreGUI\src</SrcDir>
+  </Project>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="exercise.menuexercise">
+      <SourceLine classname="exercise.menuexercise" start="3" end="3" sourcefile="menuexercise.java" sourcepath="exercise/menuexercise.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 11 Mar 2021 12:21:20 -0800" total_classes="27" referenced_classes="389" total_bugs="1" total_size="702" num_packages="4" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="17.81" clock_seconds="5.26" peak_mbytes="854.96" alloc_mbytes="2048.00" gc_seconds="0.20" priority_2="1">
+    <PackageStats package="Menuandtoolbar" total_bugs="0" total_types="12" total_size="337">
+      <ClassStats class="Menuandtoolbar.BlankArea" sourceFile="BlankArea.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample" sourceFile="MenuExample.java" interface="false" size="125" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$1" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$2" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$3" sourceFile="MenuExample.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$4" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$5" sourceFile="MenuExample.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$6" sourceFile="MenuExample.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.MenuExample$MyMouseInputAdapter" sourceFile="MenuExample.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.ToolBarExampleSimple" sourceFile="ToolBarExampleSimple.java" interface="false" size="82" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.ToolBarExampleSimple$1" sourceFile="ToolBarExampleSimple.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="Menuandtoolbar.ToolBarExampleSimple$MyMouseInputAdapter" sourceFile="ToolBarExampleSimple.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="exercise" total_bugs="1" total_types="1" total_size="3" priority_2="1">
+      <ClassStats class="exercise.menuexercise" sourceFile="menuexercise.java" interface="false" size="3" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="jfileChooser" total_bugs="0" total_types="2" total_size="23">
+      <ClassStats class="jfileChooser.FrameExample" sourceFile="FrameExample.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="jfileChooser.FrameExample$1" sourceFile="FrameExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="repaintAndrevalidate" total_bugs="0" total_types="12" total_size="339">
+      <ClassStats class="repaintAndrevalidate.BlankArea" sourceFile="BlankArea.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample" sourceFile="MenuExample.java" interface="false" size="125" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$1" sourceFile="MenuExample.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$2" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$3" sourceFile="MenuExample.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$4" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$5" sourceFile="MenuExample.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$6" sourceFile="MenuExample.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.MenuExample$MyMouseInputAdapter" sourceFile="MenuExample.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.ToolBarExampleSimple" sourceFile="ToolBarExampleSimple.java" interface="false" size="82" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.ToolBarExampleSimple$1" sourceFile="ToolBarExampleSimple.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="repaintAndrevalidate.ToolBarExampleSimple$MyMouseInputAdapter" sourceFile="ToolBarExampleSimple.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1007" invocations="1794" avgMicrosecondsPerInvocation="561" maxMicrosecondsPerInvocation="468091" standardDeviationMicrosecondsPerInvocation="11171"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="893" invocations="1790" avgMicrosecondsPerInvocation="499" maxMicrosecondsPerInvocation="113273" standardDeviationMicrosecondsPerInvocation="2954"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="438" invocations="389" avgMicrosecondsPerInvocation="1127" maxMicrosecondsPerInvocation="26102" standardDeviationMicrosecondsPerInvocation="2617"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="397" invocations="389" avgMicrosecondsPerInvocation="1021" maxMicrosecondsPerInvocation="21692" standardDeviationMicrosecondsPerInvocation="2021"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="374" invocations="2" avgMicrosecondsPerInvocation="187240" maxMicrosecondsPerInvocation="267036" standardDeviationMicrosecondsPerInvocation="79796"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="270" invocations="895" avgMicrosecondsPerInvocation="302" maxMicrosecondsPerInvocation="25053" standardDeviationMicrosecondsPerInvocation="1210"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="172" invocations="1741" avgMicrosecondsPerInvocation="98" maxMicrosecondsPerInvocation="22296" standardDeviationMicrosecondsPerInvocation="800"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="138" invocations="114" avgMicrosecondsPerInvocation="1217" maxMicrosecondsPerInvocation="78343" standardDeviationMicrosecondsPerInvocation="7273"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="121" invocations="389" avgMicrosecondsPerInvocation="313" maxMicrosecondsPerInvocation="3571" standardDeviationMicrosecondsPerInvocation="502"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="85" invocations="389" avgMicrosecondsPerInvocation="219" maxMicrosecondsPerInvocation="10619" standardDeviationMicrosecondsPerInvocation="700"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1615494086317" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

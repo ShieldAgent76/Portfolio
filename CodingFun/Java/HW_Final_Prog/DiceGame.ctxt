@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DiceGame
+comment0.text=\r\n\ Martin\ Lillo\r\n\ \r\n\ This\ program\ is\ a\ dice\ game\ where\ the\ user\ needs\ to\ guess\ the\ number\ when\ the\ dice\ rolls\r\n\ This\ is\ based\ off\ one\ of\ the\ labs\ during\ this\ quarter.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int\ playRound()
+comment3.params=score
+comment3.target=void\ gameResult(int)
+numComments=4

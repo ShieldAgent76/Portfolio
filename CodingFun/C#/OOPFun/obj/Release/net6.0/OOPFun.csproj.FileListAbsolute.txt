@@ -1,0 +1,5 @@
+C:\Users\marti\Documents\CodingFun\C#\OOPFun\obj\Release\net6.0\OOPFun.csproj.AssemblyReference.cache
+C:\Users\marti\Documents\CodingFun\C#\OOPFun\obj\Release\net6.0\OOPFun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Documents\CodingFun\C#\OOPFun\obj\Release\net6.0\OOPFun.AssemblyInfoInputs.cache
+C:\Users\marti\Documents\CodingFun\C#\OOPFun\obj\Release\net6.0\OOPFun.AssemblyInfo.cs
+C:\Users\marti\Documents\CodingFun\C#\OOPFun\obj\Release\net6.0\OOPFun.csproj.CoreCompileInputs.cache

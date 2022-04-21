@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1609982561228" analysisTimestamp="1609982556008" release="">
+  <Project projectName="Boolean_Calculator">
+    <Jar>C:\Users\marti\Documents\Extra Stuff\Boolean_Calculator\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\Extra Stuff\Boolean_Calculator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\Extra Stuff\Boolean_Calculator\src</SrcDir>
+  </Project>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE" first="1">
+    <Class classname="lillom.BooleanCalculator">
+      <SourceLine classname="lillom.BooleanCalculator" sourcefile="BooleanCalculator.java" sourcepath="lillom/BooleanCalculator.java"/>
+    </Class>
+    <Method classname="lillom.BooleanCalculator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="lillom.BooleanCalculator" start="18" end="36" startBytecode="0" endBytecode="234" sourcefile="BooleanCalculator.java" sourcepath="lillom/BooleanCalculator.java"/>
+    </Method>
+    <String value="formula == false"/>
+    <SourceLine classname="lillom.BooleanCalculator" start="34" end="34" startBytecode="56" endBytecode="56" sourcefile="BooleanCalculator.java" sourcepath="lillom/BooleanCalculator.java" role="SOURCE_UNREACHABLE_CODE"/>
+    <SourceLine classname="lillom.BooleanCalculator" start="30" end="30" startBytecode="42" endBytecode="42" sourcefile="BooleanCalculator.java" sourcepath="lillom/BooleanCalculator.java"/>
+    <SourceLine classname="lillom.BooleanCalculator" start="30" end="30" startBytecode="42" endBytecode="42" sourcefile="BooleanCalculator.java" sourcepath="lillom/BooleanCalculator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 5 Jan 2021 21:36:07 -0800" total_classes="1" referenced_classes="15" total_bugs="1" total_size="17" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="10.95" clock_seconds="5.25" peak_mbytes="443.65" alloc_mbytes="2048.00" gc_seconds="0.05" priority_1="1">
+    <PackageStats package="lillom" total_bugs="1" total_types="1" total_size="17" priority_1="1">
+      <ClassStats class="lillom.BooleanCalculator" sourceFile="BooleanCalculator.java" interface="false" size="17" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="2282" invocations="2" avgMicrosecondsPerInvocation="1141458" maxMicrosecondsPerInvocation="1836136" standardDeviationMicrosecondsPerInvocation="694678"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1294" invocations="379" avgMicrosecondsPerInvocation="3415" maxMicrosecondsPerInvocation="39143" standardDeviationMicrosecondsPerInvocation="7798"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="583" invocations="378" avgMicrosecondsPerInvocation="1542" maxMicrosecondsPerInvocation="52654" standardDeviationMicrosecondsPerInvocation="3750"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1609982561225" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

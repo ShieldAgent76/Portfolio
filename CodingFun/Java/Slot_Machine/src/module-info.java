@@ -1,0 +1,2 @@
+module Slot_Machine {
+}

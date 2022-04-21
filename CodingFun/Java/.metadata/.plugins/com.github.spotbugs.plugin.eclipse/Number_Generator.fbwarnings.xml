@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1609982895455" analysisTimestamp="1609982893968" release="">
+  <Project projectName="Number_Generator">
+    <Jar>C:\Users\marti\Documents\Extra Stuff\Number_Generator\bin</Jar>
+    <AuxClasspathEntry>C:\Users\marti\Documents\Extra Stuff\Number_Generator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-15.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\marti\Documents\Extra Stuff\Number_Generator\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="lillom.NumberGenerator">
+      <SourceLine classname="lillom.NumberGenerator" sourcefile="NumberGenerator.java" sourcepath="lillom/NumberGenerator.java"/>
+    </Class>
+    <Method classname="lillom.NumberGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="lillom.NumberGenerator" start="19" end="28" startBytecode="0" endBytecode="184" sourcefile="NumberGenerator.java" sourcepath="lillom/NumberGenerator.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="lillom.NumberGenerator" start="19" end="19" startBytecode="7" endBytecode="7" sourcefile="NumberGenerator.java" sourcepath="lillom/NumberGenerator.java"/>
+    <SourceLine classname="lillom.NumberGenerator" start="19" end="19" startBytecode="7" endBytecode="7" sourcefile="NumberGenerator.java" sourcepath="lillom/NumberGenerator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 6 Jan 2021 17:27:48 -0800" total_classes="1" referenced_classes="18" total_bugs="1" total_size="12" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.53" clock_seconds="1.49" peak_mbytes="491.24" alloc_mbytes="2048.00" gc_seconds="0.05" priority_1="1">
+    <PackageStats package="lillom" total_bugs="1" total_types="1" total_size="12" priority_1="1">
+      <ClassStats class="lillom.NumberGenerator" sourceFile="NumberGenerator.java" interface="false" size="12" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="551" invocations="408" avgMicrosecondsPerInvocation="1352" maxMicrosecondsPerInvocation="34416" standardDeviationMicrosecondsPerInvocation="2975"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="237" invocations="2" avgMicrosecondsPerInvocation="118978" maxMicrosecondsPerInvocation="216876" standardDeviationMicrosecondsPerInvocation="97898"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="176" invocations="409" avgMicrosecondsPerInvocation="430" maxMicrosecondsPerInvocation="17970" standardDeviationMicrosecondsPerInvocation="1601"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="84" invocations="18" avgMicrosecondsPerInvocation="4681" maxMicrosecondsPerInvocation="17343" standardDeviationMicrosecondsPerInvocation="5384"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="63" invocations="18" avgMicrosecondsPerInvocation="3527" maxMicrosecondsPerInvocation="16113" standardDeviationMicrosecondsPerInvocation="4996"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1609982895455" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

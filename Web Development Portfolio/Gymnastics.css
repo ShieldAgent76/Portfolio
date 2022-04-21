@@ -1,0 +1,18 @@
+* {
+    background-color: lightcyan;
+    position: relative;
+    border: 20px;
+}
+
+header {
+    background-color: navy;
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+b {
+    font-size: larger;
+}

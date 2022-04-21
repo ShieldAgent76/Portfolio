@@ -1,0 +1,2 @@
+module Number_Generator {
+}

@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\bin\Release\EmployeeDB.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\bin\Release\EmployeeDB.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\bin\Release\EmployeeDB.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\obj\Release\EmployeeDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\obj\Release\EmployeeDB.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\obj\Release\EmployeeDB.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\EmployeeDB\obj\Release\EmployeeDB.pdb

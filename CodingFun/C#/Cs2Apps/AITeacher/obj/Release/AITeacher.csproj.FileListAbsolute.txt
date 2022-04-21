@@ -1,0 +1,8 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\bin\Release\AITeacher.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\bin\Release\AITeacher.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\bin\Release\AITeacher.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\obj\Release\AITeacher.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\obj\Release\AITeacher.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\obj\Release\AITeacher.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\obj\Release\AITeacher.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\AITeacher\obj\Release\AITeacher.csproj.AssemblyReference.cache

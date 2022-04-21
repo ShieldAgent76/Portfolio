@@ -1,0 +1,11 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\bin\Release\Calculator.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\bin\Release\Calculator.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\bin\Release\Calculator.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.Properties.Resources.resources
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.csproj.GenerateResource.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.csproj.AssemblyReference.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Calculator\obj\Release\Calculator.Form1.resources

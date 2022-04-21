@@ -1,0 +1,56 @@
+Thomas
+Edward
+edwardt@uw.edu
+3.7
+junior
+Computer Science
+
+Rex
+Lapis
+lapisr@uw.edu
+4
+senior
+Literature
+
+Shane
+Robert
+roberts@uw.edu
+3.3
+sophomore
+Engineering
+
+Holly
+Flames
+flamesh@uw.edu
+2.5
+John Red
+5000
+
+Pyra
+Fluer
+fluerp@uw.edu
+4
+Rexa Floor
+10000
+
+Mallow
+Hive
+hivem@uw.edu
+2.9
+Lana Rhodes
+1000
+
+Rosa
+Flowers
+flowersr@uw.edu
+3.4
+freshman
+Art
+
+Wilbur
+Soot
+sootw@uw.edu
+3.9
+Tom Biles
+6969
+

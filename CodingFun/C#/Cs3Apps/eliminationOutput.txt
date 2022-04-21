@@ -1,0 +1,205 @@
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+Welcome to Duplicate Elimination Program!
+
+This program takes in five numbers on only prints out unique one,
+meaning there should not be any duplicates.
+
+REMEMBER: You only have five attempts to enter five numbers.
+Any duplicates will not be counted in the end.
+Same goes for invalid numbers that are either below 10 or above 100.
+
+Let's get started. Press 'Enter' to begin:
+
+Enter a number between 10 and 100: 1
+
+Invalid Number Entered
+
+Enter a number between 10 and 100: 101
+
+Invalid Number Entered
+
+Enter a number between 10 and 100: 10
+
+Number entered: 10
+
+Unique Numbers Array
+********************
+10
+
+Enter a number between 10 and 100: 11
+
+Number entered: 11
+
+Unique Numbers Array
+********************
+10 11
+
+Enter a number between 10 and 100: 12
+
+Number entered: 12
+
+Unique Numbers Array
+********************
+10 11 12
+
+Unique Numbers Array
+********************
+10 11 12
+
+Thank you for using the Duplicate Elimination Program!
+
+We hope to see you again soon.
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+Welcome to Duplicate Elimination Program!
+
+This program takes in five numbers on only prints out unique one,
+meaning there should not be any duplicates.
+
+REMEMBER: You only have five attempts to enter five numbers.
+Any duplicates will not be counted in the end.
+Same goes for invalid numbers that are either below 10 or above 100.
+
+Let's get started. Press 'Enter' to begin:
+
+Enter a number between 10 and 100: 1
+
+Invalid Number Entered
+
+Enter a number between 10 and 100: 900
+
+Invalid Number Entered
+
+Enter a number between 10 and 100: 800
+
+Invalid Number Entered
+
+Enter a number between 10 and 100: 2
+
+Invalid Number Entered
+
+Enter a number between 10 and 100: 3
+
+Invalid Number Entered
+
+Unique Numbers Array
+********************
+
+
+Thank you for using the Duplicate Elimination Program!
+
+We hope to see you again soon.
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+Welcome to Duplicate Elimination Program!
+
+This program takes in five numbers on only prints out unique one,
+meaning there should not be any duplicates.
+
+REMEMBER: You only have five attempts to enter five numbers.
+Any duplicates will not be counted in the end.
+Same goes for invalid numbers that are either below 10 or above 100.
+
+Let's get started. Press 'Enter' to begin:
+
+Enter a number between 10 and 100: 12
+
+Number entered: 12
+
+Unique Numbers Array
+********************
+12
+
+Enter a number between 10 and 100: 12
+
+12 is already in array
+
+Enter a number between 10 and 100: 11
+
+Number entered: 11
+
+Unique Numbers Array
+********************
+12 11
+
+Enter a number between 10 and 100: 13
+
+Number entered: 13
+
+Unique Numbers Array
+********************
+12 11 13
+
+Enter a number between 10 and 100: 14
+
+Number entered: 14
+
+Unique Numbers Array
+********************
+12 11 13 14
+
+Unique Numbers Array
+********************
+12 11 13 14
+
+Thank you for using the Duplicate Elimination Program!
+
+We hope to see you again soon.
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+Welcome to Duplicate Elimination Program!
+
+This program takes in five numbers on only prints out unique one,
+meaning there should not be any duplicates.
+
+REMEMBER: You only have five attempts to enter five numbers.
+Any duplicates will not be counted in the end.
+Same goes for invalid numbers that are either below 10 or above 100.
+
+Let's get started. Press 'Enter' to begin:
+
+Enter a number between 10 and 100: 10
+
+Number entered: 10
+
+Unique Numbers Array
+********************
+10
+
+Enter a number between 10 and 100: 11
+
+Number entered: 11
+
+Unique Numbers Array
+********************
+10 11
+
+Enter a number between 10 and 100: 34
+
+Number entered: 34
+
+Unique Numbers Array
+********************
+10 11 34
+
+Enter a number between 10 and 100: 45
+
+Number entered: 45
+
+Unique Numbers Array
+********************
+10 11 34 45
+
+Enter a number between 10 and 100: 76
+
+Number entered: 76
+
+Unique Numbers Array
+********************
+10 11 34 45 76
+
+Unique Numbers Array
+********************
+10 11 34 45 76
+
+Thank you for using the Duplicate Elimination Program!
+
+We hope to see you again soon.
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps>

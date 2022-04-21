@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\bin\Release\BarChart.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\bin\Release\BarChart.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\bin\Release\BarChart.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\obj\Release\BarChart.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\obj\Release\BarChart.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\obj\Release\BarChart.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\BarChart\obj\Release\BarChart.pdb

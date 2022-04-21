@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\bin\Release\DigitParser.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\bin\Release\DigitParser.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\bin\Release\DigitParser.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\obj\Release\DigitParser.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\obj\Release\DigitParser.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\obj\Release\DigitParser.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\DigitParser\obj\Release\DigitParser.pdb

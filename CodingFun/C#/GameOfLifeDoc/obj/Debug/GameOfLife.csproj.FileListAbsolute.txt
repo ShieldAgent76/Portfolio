@@ -1,0 +1,15 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\bin\Debug\GameOfLife.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\bin\Debug\GameOfLife.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\bin\Debug\GameOfLife.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Debug\GameOfLife.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Debug\GameOfLife.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Debug\GameOfLife.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\bin\Debug\GameOfLife.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\bin\Debug\GameOfLife.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\bin\Debug\GameOfLife.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\obj\Debug\GameOfLife.csproj.AssemblyReference.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\obj\Debug\GameOfLife.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\obj\Debug\GameOfLife.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLifeDoc\obj\Debug\GameOfLife.pdb

@@ -1,0 +1,38 @@
+**********************
+PowerShell transcript start
+Start time: 20220213115119
+Username: DESKTOP-O4J361Q\marti
+RunAs User: DESKTOP-O4J361Q\marti
+Configuration Name: 
+Machine: DESKTOP-O4J361Q (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 13276
+PSVersion: 7.2.1
+PSEdition: Core
+GitCommitId: 7.2.1
+OS: Microsoft Windows 10.0.22000
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.1
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is EmployeeTest.txt
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps> .\EmployeeDB\bin\Debug\EmployeeDB.exe
+******************************************
+First Name: Martin
+Last Name: Lillo
+Yearly Salary with 10% raise: 219.12
+
+First Name: Haha
+Last Name: Clinton-Dix
+Yearly Salary with 10% raise: 1006509.24
+
+First Name: Tommy
+Last Name: Poor
+Yearly Salary with 10% raise: 13201.32
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps> Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20220213115141
+**********************

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0a6088b6-4e5d-49d0-aedc-a04b8dd84d5a": {
+      "ProjectGuid": "0a6088b6-4e5d-49d0-aedc-a04b8dd84d5a",
+      "DisplayName": "Elimination",
+      "ColorIndex": 0
+    },
+    "a1f34379-b486-43b7-84b9-46c9d471f5d8": {
+      "ProjectGuid": "a1f34379-b486-43b7-84b9-46c9d471f5d8",
+      "DisplayName": "Airline",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

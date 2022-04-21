@@ -1,0 +1,66 @@
+﻿**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.0.4
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\BarChart\bin\Debug\BarChart.exe
+Welcome to the Bar Chart program!
+*********************************
+
+This program takes the number the user inputed and displays the stars based on the user input.
+
+Let's get started! Press 'Enter' to begin:
+
+Enter number of stars (1-30): 3
+
+***
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\BarChart\bin\Debug\BarChart.exe
+Welcome to the Bar Chart program!
+*********************************
+
+This program takes the number the user inputed and displays the stars based on the user input.
+
+Let's get started! Press 'Enter' to begin:
+
+Enter number of stars (1-30): 5
+
+*****
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\BarChart\bin\Debug\BarChart.exe
+Welcome to the Bar Chart program!
+*********************************
+
+This program takes the number the user inputed and displays the stars based on the user input.
+
+Let's get started! Press 'Enter' to begin:
+
+Enter number of stars (1-30): 8
+
+********
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\BarChart\bin\Debug\BarChart.exe
+Welcome to the Bar Chart program!
+*********************************
+
+This program takes the number the user inputed and displays the stars based on the user input.
+
+Let's get started! Press 'Enter' to begin: 13
+
+Enter number of stars (1-30): 13
+
+*************
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\BarChart\bin\Debug\BarChart.exe
+Welcome to the Bar Chart program!
+*********************************
+
+This program takes the number the user inputed and displays the stars based on the user input.
+
+Let's get started! Press 'Enter' to begin: 21
+
+Enter number of stars (1-30): 21
+
+*********************
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>

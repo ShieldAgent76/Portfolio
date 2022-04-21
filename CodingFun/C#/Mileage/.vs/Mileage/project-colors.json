@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7219bb9f-199b-40b2-8126-1f32158b0ec9": {
+      "ProjectGuid": "7219bb9f-199b-40b2-8126-1f32158b0ec9",
+      "DisplayName": "Mileage",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

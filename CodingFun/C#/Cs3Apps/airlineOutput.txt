@@ -1,0 +1,341 @@
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+Welcome to Delta Airlines!
+
+Thank you for flying with us!
+
+This is where you get to assign your seat for your upcoming flight.
+
+Let's get started! Press 'Enter' to enter into seating assignment:
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 1
+
+There are 4 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 2
+
+There are 3 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 3
+
+There are 2 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 4
+
+There are 1 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 5
+
+There are 0 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+There are no more FIRST CLASS seats available!
+
+Next flight in three hours.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 6
+
+There are 4 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 7
+
+There are 3 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 8
+
+There are 2 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 9
+
+There are 1 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 10
+
+There are 0 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+There are no more ECONOMY seats available!
+
+Next flight in three hours.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+There are no more ECONOMY seats available!
+
+Next flight in three hours.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 3
+
+Thank for flying with us!
+
+We hope to see you again soon.
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+Welcome to Delta Airlines!
+
+Thank you for flying with us!
+
+This is where you get to assign your seat for your upcoming flight.
+
+Let's get started! Press 'Enter' to enter into seating assignment:
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 1
+
+There are 4 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 6
+
+There are 4 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 2
+
+There are 3 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 7
+
+There are 3 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 3
+
+There are 2 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 8
+
+There are 2 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 4
+
+There are 1 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 9
+
+There are 1 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+You are assigned to FIRST CLASS, seat number 5
+
+There are 0 available FIRST CLASS seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+You are assigned to ECONOMY, seat number 10
+
+There are 0 available ECONOMY seats left.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 1
+
+There are no more FIRST CLASS seats available!
+
+Next flight in three hours.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 2
+
+There are no more ECONOMY seats available!
+
+Next flight in three hours.
+
+Please make your choice:
+************************
+1) First Class
+2) Economy
+3) Exit
+
+Selection: 3
+
+Thank for flying with us!
+
+We hope to see you again soon.
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps>

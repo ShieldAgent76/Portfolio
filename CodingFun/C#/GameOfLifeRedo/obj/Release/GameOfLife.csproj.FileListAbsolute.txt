@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\bin\Release\GameOfLife.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\bin\Release\GameOfLife.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\bin\Release\GameOfLife.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Release\GameOfLife.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Release\GameOfLife.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Release\GameOfLife.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\obj\Release\GameOfLife.pdb

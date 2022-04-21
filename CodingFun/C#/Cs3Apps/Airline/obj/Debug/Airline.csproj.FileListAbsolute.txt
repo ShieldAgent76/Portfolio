@@ -1,0 +1,8 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\bin\Debug\Airline.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\bin\Debug\Airline.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\bin\Debug\Airline.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Debug\Airline.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Debug\Airline.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Debug\Airline.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Debug\Airline.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Debug\Airline.csproj.AssemblyReference.cache

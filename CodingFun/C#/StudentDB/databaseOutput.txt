@@ -1,0 +1,728 @@
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB> .\bin\Debug\StudentDB
+Welcome to the University of Washington Student Database
+
+This is to showcase object oriented programming in C#
+by creating a student database for a school or university.
+
+Let's get started. Press 'Enter' to begin:
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: p
+
+University of Washington Students
+*********************************
+  First Name: Thomas
+   Last Name: Edward
+School Email: edwardt@uw.edu
+         GPA: 3.7
+   Year Rank: junior
+      Degree: Computer Science
+
+  First Name: Rex
+   Last Name: Lapis
+School Email: lapisr@uw.edu
+         GPA: 4
+   Year Rank: senior
+      Degree: Literature
+
+  First Name: Rosa
+   Last Name: Flowers
+School Email: flowersr@uw.edu
+         GPA: 2.9
+   Year Rank: freshman
+      Degree: Business
+
+  First Name: Shane
+   Last Name: Robert
+School Email: roberts@uw.edu
+         GPA: 3.3
+   Year Rank: sophomore
+      Degree: Engineering
+
+  First Name: Holly
+   Last Name: Flames
+School Email: flamesh@uw.edu
+         GPA: 2.5
+     Advisor: John Red
+     Credits: 5000
+
+  First Name: Pyra
+   Last Name: Fluer
+School Email: fluerp@uw.edu
+         GPA: 4
+     Advisor: Rexa Floor
+     Credits: 10000
+
+  First Name: Wilbur
+   Last Name: Soot
+School Email: sootw@uw.edu
+         GPA: 3.5
+     Advisor: Tommy Claps
+     Credits: 25000
+
+  First Name: Mallow
+   Last Name: Hive
+School Email: hivem@uw.edu
+         GPA: 2.9
+     Advisor: Lana Rhodes
+     Credits: 1000
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: s
+
+Writing to text file...
+
+******************** UW Student Records **************************
+
+Thomas
+Edward
+edwardt@uw.edu
+3.7
+junior
+Computer Science
+
+Rex
+Lapis
+lapisr@uw.edu
+4
+senior
+Literature
+
+Rosa
+Flowers
+flowersr@uw.edu
+2.9
+freshman
+Business
+
+Shane
+Robert
+roberts@uw.edu
+3.3
+sophomore
+Engineering
+
+Holly
+Flames
+flamesh@uw.edu
+2.5
+John Red
+5000
+
+Pyra
+Fluer
+fluerp@uw.edu
+4
+Rexa Floor
+10000
+
+Wilbur
+Soot
+sootw@uw.edu
+3.5
+Tommy Claps
+25000
+
+Mallow
+Hive
+hivem@uw.edu
+2.9
+Lana Rhodes
+1000
+
+******************************************************************
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: r
+
+Enter email: flowersr@uw.edu
+
+Found email: flowersr@uw.edu
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: d
+
+Enter email: flowersr@uw.edu
+
+Found email: flowersr@uw.edu
+
+Student Deleted
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: p
+
+University of Washington Students
+*********************************
+  First Name: Thomas
+   Last Name: Edward
+School Email: edwardt@uw.edu
+         GPA: 3.7
+   Year Rank: junior
+      Degree: Computer Science
+
+  First Name: Rex
+   Last Name: Lapis
+School Email: lapisr@uw.edu
+         GPA: 4
+   Year Rank: senior
+      Degree: Literature
+
+  First Name: Shane
+   Last Name: Robert
+School Email: roberts@uw.edu
+         GPA: 3.3
+   Year Rank: sophomore
+      Degree: Engineering
+
+  First Name: Holly
+   Last Name: Flames
+School Email: flamesh@uw.edu
+         GPA: 2.5
+     Advisor: John Red
+     Credits: 5000
+
+  First Name: Pyra
+   Last Name: Fluer
+School Email: fluerp@uw.edu
+         GPA: 4
+     Advisor: Rexa Floor
+     Credits: 10000
+
+  First Name: Wilbur
+   Last Name: Soot
+School Email: sootw@uw.edu
+         GPA: 3.5
+     Advisor: Tommy Claps
+     Credits: 25000
+
+  First Name: Mallow
+   Last Name: Hive
+School Email: hivem@uw.edu
+         GPA: 2.9
+     Advisor: Lana Rhodes
+     Credits: 1000
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: s
+
+Writing to text file...
+
+******************** UW Student Records **************************
+
+Thomas
+Edward
+edwardt@uw.edu
+3.7
+junior
+Computer Science
+
+Rex
+Lapis
+lapisr@uw.edu
+4
+senior
+Literature
+
+Shane
+Robert
+roberts@uw.edu
+3.3
+sophomore
+Engineering
+
+Holly
+Flames
+flamesh@uw.edu
+2.5
+John Red
+5000
+
+Pyra
+Fluer
+fluerp@uw.edu
+4
+Rexa Floor
+10000
+
+Wilbur
+Soot
+sootw@uw.edu
+3.5
+Tommy Claps
+25000
+
+Mallow
+Hive
+hivem@uw.edu
+2.9
+Lana Rhodes
+1000
+
+******************************************************************
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: c
+
+Enter email: flowersr@uw.edu
+
+flowersr@uw.edu not found
+
+Adding new stuent. Email: flowersr@uw.edu
+
+Enter First Name: Rosa
+
+Enter Last Name: Flowers
+
+Enter Grade Point Average (GPA): 3.4
+
+Are you a undergrad or grad? [U or G]: u
+
+What is your rank?: freshman
+
+Enter planned degree: Art
+
+Student Created
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: p
+
+University of Washington Students
+*********************************
+  First Name: Thomas
+   Last Name: Edward
+School Email: edwardt@uw.edu
+         GPA: 3.7
+   Year Rank: junior
+      Degree: Computer Science
+
+  First Name: Rex
+   Last Name: Lapis
+School Email: lapisr@uw.edu
+         GPA: 4
+   Year Rank: senior
+      Degree: Literature
+
+  First Name: Shane
+   Last Name: Robert
+School Email: roberts@uw.edu
+         GPA: 3.3
+   Year Rank: sophomore
+      Degree: Engineering
+
+  First Name: Holly
+   Last Name: Flames
+School Email: flamesh@uw.edu
+         GPA: 2.5
+     Advisor: John Red
+     Credits: 5000
+
+  First Name: Pyra
+   Last Name: Fluer
+School Email: fluerp@uw.edu
+         GPA: 4
+     Advisor: Rexa Floor
+     Credits: 10000
+
+  First Name: Wilbur
+   Last Name: Soot
+School Email: sootw@uw.edu
+         GPA: 3.5
+     Advisor: Tommy Claps
+     Credits: 25000
+
+  First Name: Mallow
+   Last Name: Hive
+School Email: hivem@uw.edu
+         GPA: 2.9
+     Advisor: Lana Rhodes
+     Credits: 1000
+
+  First Name: Rosa
+   Last Name: Flowers
+School Email: flowersr@uw.edu
+         GPA: 3.4
+   Year Rank: freshman
+      Degree: Art
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: s
+
+Writing to text file...
+
+******************** UW Student Records **************************
+
+Thomas
+Edward
+edwardt@uw.edu
+3.7
+junior
+Computer Science
+
+Rex
+Lapis
+lapisr@uw.edu
+4
+senior
+Literature
+
+Shane
+Robert
+roberts@uw.edu
+3.3
+sophomore
+Engineering
+
+Holly
+Flames
+flamesh@uw.edu
+2.5
+John Red
+5000
+
+Pyra
+Fluer
+fluerp@uw.edu
+4
+Rexa Floor
+10000
+
+Wilbur
+Soot
+sootw@uw.edu
+3.5
+Tommy Claps
+25000
+
+Mallow
+Hive
+hivem@uw.edu
+2.9
+Lana Rhodes
+1000
+
+Rosa
+Flowers
+flowersr@uw.edu
+3.4
+freshman
+Art
+
+******************************************************************
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: u
+
+To update student remove current one
+then, add it with new information
+Press 'Enter' to continue:
+
+Enter email: sootw@uw.edu
+
+Found email: sootw@uw.edu
+
+Student Deleted
+
+Enter email: sootw@uw.edu
+
+sootw@uw.edu not found
+
+Adding new stuent. Email: sootw@uw.edu
+
+Enter First Name: Wilbur
+
+Enter Last Name: Soot
+
+Enter Grade Point Average (GPA): 3.9
+
+Are you a undergrad or grad? [U or G]: g
+
+Enter Faculty Advisor: Tom Simons
+
+Enter the number of financial tuition credits: 69420
+
+Student Created
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: p
+
+University of Washington Students
+*********************************
+  First Name: Thomas
+   Last Name: Edward
+School Email: edwardt@uw.edu
+         GPA: 3.7
+   Year Rank: junior
+      Degree: Computer Science
+
+  First Name: Rex
+   Last Name: Lapis
+School Email: lapisr@uw.edu
+         GPA: 4
+   Year Rank: senior
+      Degree: Literature
+
+  First Name: Shane
+   Last Name: Robert
+School Email: roberts@uw.edu
+         GPA: 3.3
+   Year Rank: sophomore
+      Degree: Engineering
+
+  First Name: Holly
+   Last Name: Flames
+School Email: flamesh@uw.edu
+         GPA: 2.5
+     Advisor: John Red
+     Credits: 5000
+
+  First Name: Pyra
+   Last Name: Fluer
+School Email: fluerp@uw.edu
+         GPA: 4
+     Advisor: Rexa Floor
+     Credits: 10000
+
+  First Name: Mallow
+   Last Name: Hive
+School Email: hivem@uw.edu
+         GPA: 2.9
+     Advisor: Lana Rhodes
+     Credits: 1000
+
+  First Name: Rosa
+   Last Name: Flowers
+School Email: flowersr@uw.edu
+         GPA: 3.4
+   Year Rank: freshman
+      Degree: Art
+
+  First Name: Wilbur
+   Last Name: Soot
+School Email: sootw@uw.edu
+         GPA: 3.9
+     Advisor: Tom Simons
+     Credits: 69420
+
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: s
+
+Writing to text file...
+
+******************** UW Student Records **************************
+
+Thomas
+Edward
+edwardt@uw.edu
+3.7
+junior
+Computer Science
+
+Rex
+Lapis
+lapisr@uw.edu
+4
+senior
+Literature
+
+Shane
+Robert
+roberts@uw.edu
+3.3
+sophomore
+Engineering
+
+Holly
+Flames
+flamesh@uw.edu
+2.5
+John Red
+5000
+
+Pyra
+Fluer
+fluerp@uw.edu
+4
+Rexa Floor
+10000
+
+Mallow
+Hive
+hivem@uw.edu
+2.9
+Lana Rhodes
+1000
+
+Rosa
+Flowers
+flowersr@uw.edu
+3.4
+freshman
+Art
+
+Wilbur
+Soot
+sootw@uw.edu
+3.9
+Tom Simons
+69420
+
+******************************************************************
+University of Washington Student Database Menu
+**********************************************
+
+Type in a character to choose a command
+
+[C]: Create or add a record to the database
+[R]: Read the details of a record. (Search)
+[U]: Update or modify some details of an existing record in the database
+[D]: Delete or remove a record from the database
+[P]: Print the database
+[S]: Save the database
+[E]: Exit the databse
+
+Choice: e
+
+Thank you for using the UW Student Database
+
+Go Dawgs!

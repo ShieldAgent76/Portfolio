@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\obj\Release\StudentDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\obj\Release\StudentDB.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\bin\Release\StudentDB.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\bin\Release\StudentDB.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\bin\Release\StudentDB.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\obj\Release\StudentDB.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\StudentDB\obj\Release\StudentDB.pdb

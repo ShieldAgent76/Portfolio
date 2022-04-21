@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\bin\Debug\OddOrEven.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\bin\Debug\OddOrEven.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\bin\Debug\OddOrEven.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\obj\Debug\OddOrEven.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\obj\Debug\OddOrEven.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\obj\Debug\OddOrEven.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\OddOrEven\obj\Debug\OddOrEven.pdb

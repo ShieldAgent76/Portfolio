@@ -1,0 +1,73 @@
+﻿**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.0.4
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps> Start-Transcript -Path EmployeeDBTest2.txt
+'Start-Transcript' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>\EmployeeDB\bin\Debug\EmployeeDB.exe
+The system cannot find the path specified.
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\EmployeeDB\bin\Debug\EmployeeDB.exe
+Welcome to the Green Bay Packers Employee Database
+**************************************************
+
+This program demonstrates how classes and objects work in C# by creating a database of employee objects.
+
+Let's get started! Press 'Enter' to begin:
+
+Here's what the employee database shows:
+****************************************
+
+First Name:
+Last Name:
+Yearly Salary: 0.0
+
+
+Press 'Enter' to enter continue:
+
+Employee salary cannot be negative,
+otherwise, it will show zero for salary.
+
+Example
+*******
+
+First Name: Aaron
+Last Name: Rodgers
+Yearly Salary: 0.0
+
+
+Press 'Enter' to enter database:
+
+Green Bay Packers Employees
+***************************
+First Name: Martin
+Last Name: Lillo
+Yearly Salary: 199.2
+
+First Name: Haha
+Last Name: Clinton-Dix
+Yearly Salary: 915008.4
+
+First Name: Tommy
+Last Name: Poor
+Yearly Salary: 12001.2
+
+Green Bay Packers Employees with 10% raise
+******************************************
+First Name: Martin
+Last Name: Lillo
+Yearly Salary with 10% raise: 219.12
+
+First Name: Haha
+Last Name: Clinton-Dix
+Yearly Salary with 10% raise: 1006509.24
+
+First Name: Tommy
+Last Name: Poor
+Yearly Salary with 10% raise: 13201.32
+
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>

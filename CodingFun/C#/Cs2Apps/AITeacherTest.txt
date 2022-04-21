@@ -1,0 +1,42 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.0.4
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\AITeacher\bin\Debug\AITeacher.exe
+Welcome to Ms. Frizzle's Multiply Game!
+***************************************
+
+Are you kids ready to learn multiplication?
+
+We are going to have a fun time learning!
+
+Let's get started! Press 'Enter' to begin:
+
+What is 8 * 6?: 42
+
+No. Please try again.
+
+What is 8 * 6?: 48
+
+Very good!
+
+Play again? Type yes or no?: yes
+
+What is 4 * 3?: 12
+
+Very good!
+
+Play again? Type yes or no?: yes
+
+What is 7 * 7?: 49
+
+Very good!
+
+Play again? Type yes or no?: no
+
+Thank you for playing Ms.Frizzle's Multiply Game!
+
+Stay in school to reach your dreams!
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>

@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\bin\Release\Airline.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\bin\Release\Airline.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\bin\Release\Airline.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Release\Airline.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Release\Airline.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Release\Airline.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Airline\obj\Release\Airline.pdb

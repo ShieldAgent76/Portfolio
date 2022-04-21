@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\bin\Debug\GuessTheNumber.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\bin\Debug\GuessTheNumber.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\bin\Debug\GuessTheNumber.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\obj\Debug\GuessTheNumber.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\obj\Debug\GuessTheNumber.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\obj\Debug\GuessTheNumber.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps\GuessTheNumber\obj\Debug\GuessTheNumber.pdb

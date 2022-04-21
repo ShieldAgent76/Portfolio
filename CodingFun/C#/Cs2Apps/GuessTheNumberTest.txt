@@ -1,0 +1,201 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.0.4
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\GuessTheNumber\bin\Debug\GuessTheNumber.exe
+Welcome to Guess the Number game!
+*********************************
+
+This program makes the user guess what number the program has generated
+
+Let's get started! Press 'Enter' to begin!:
+
+Enter a number between 1 - 1000: 1
+
+1 is too low!
+
+Enter a number between 1 - 1000: 1000
+
+1000 is too high!
+
+Enter a number between 1 - 1000: 1001
+
+1001 is out of bounds!
+
+Enter a number between 1 - 1000: 0
+
+0 is out of bounds!
+
+Enter a number between 1 - 1000: 500
+
+500 is too low!
+
+Enter a number between 1 - 1000: 600
+
+600 is too low!
+
+Enter a number between 1 - 1000: 700
+
+700 is too low!
+
+Enter a number between 1 - 1000: 800
+
+800 is too low!
+
+Enter a number between 1 - 1000: 900
+
+900 is too low!
+
+Enter a number between 1 - 1000: 999
+
+999 is too high!
+
+Enter a number between 1 - 1000: 950
+
+950 is too low!
+
+Enter a number between 1 - 1000: 960
+
+960 is too low!
+
+Enter a number between 1 - 1000: 970
+
+970 is too low!
+
+Enter a number between 1 - 1000: 980
+
+980 is too low!
+
+Enter a number between 1 - 1000: 990
+
+990 is too high!
+
+Enter a number between 1 - 1000: 985
+
+985 is too high!
+
+Enter a number between 1 - 1000: 984
+
+984 is too high!
+
+Enter a number between 1 - 1000: 983
+
+983 is right! Congratulations.
+
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\GuessTheNumber\bin\Debug\GuessTheNumber.exe
+Welcome to Guess the Number game!
+*********************************
+
+This program makes the user guess what number the program has generated
+
+Let's get started! Press 'Enter' to begin!:
+
+Enter a number between 1 - 1000: 1
+
+1 is too low!
+
+Enter a number between 1 - 1000: 1000
+
+1000 is too high!
+
+Enter a number between 1 - 1000: 500
+
+500 is too low!
+
+Enter a number between 1 - 1000: 600
+
+600 is too high!
+
+Enter a number between 1 - 1000: 550
+
+550 is too low!
+
+Enter a number between 1 - 1000: 560
+
+560 is too low!
+
+Enter a number between 1 - 1000: 570
+
+570 is too low!
+
+Enter a number between 1 - 1000: 580
+
+580 is too low!
+
+Enter a number between 1 - 1000: 590
+
+590 is too low!
+
+Enter a number between 1 - 1000: 599
+
+599 is right! Congratulations.
+
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>.\GuessTheNumber\bin\Debug\GuessTheNumber.exe
+Welcome to Guess the Number game!
+*********************************
+
+This program makes the user guess what number the program has generated
+
+Let's get started! Press 'Enter' to begin!:
+
+Enter a number between 1 - 1000: 1
+
+1 is too low!
+
+Enter a number between 1 - 1000: 1000
+
+1000 is too high!
+
+Enter a number between 1 - 1000: 500
+
+500 is too high!
+
+Enter a number between 1 - 1000: 600
+
+600 is too high!
+
+Enter a number between 1 - 1000: 400
+
+400 is too high!
+
+Enter a number between 1 - 1000: 300
+
+300 is too high!
+
+Enter a number between 1 - 1000: 200
+
+200 is too high!
+
+Enter a number between 1 - 1000: 100
+
+100 is too high!
+
+Enter a number between 1 - 1000: 50
+
+50 is too high!
+
+Enter a number between 1 - 1000: 40
+
+40 is too high!
+
+Enter a number between 1 - 1000: 30
+
+30 is too high!
+
+Enter a number between 1 - 1000: 20
+
+20 is too low!
+
+Enter a number between 1 - 1000: 25
+
+25 is too high!
+
+Enter a number between 1 - 1000: 24
+
+24 is right! Congratulations.
+
+
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs2Apps>

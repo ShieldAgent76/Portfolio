@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\bin\Release\Elimination.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\bin\Release\Elimination.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\bin\Release\Elimination.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\obj\Release\Elimination.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\obj\Release\Elimination.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\obj\Release\Elimination.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs3Apps\Elimination\obj\Release\Elimination.pdb

@@ -1,0 +1,35 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220205162432
+Username: DESKTOP-O4J361Q\marti
+RunAs User: DESKTOP-O4J361Q\marti
+Configuration Name: 
+Machine: DESKTOP-O4J361Q (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module "$env:VSAPPIDDIR\..\Tools\Microsoft.VisualStudio.DevShell.dll"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath $env:VSAPPIDDIR\..\..\}
+Process ID: 1096
+PSVersion: 5.1.22000.282
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.282
+BuildVersion: 10.0.22000.282
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife\GameOfLifeTest.txt
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife> .\bin\Debug\GameOfLife.exe
+ xxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx x xx
+x                              x x x x x
+x x x xxxxxxx xxxxxxxxxxxx x x  xx x x x
+x x x x      x           x x xx    x x x
+x x x x  x x x x x x x x x x     x   x
+x x x xxxx x x x x x x x x xxx  x x x  x
+x x                    x       x       x
+   xxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxx x
+                             x         x
+   xx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PS C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\GameOfLife> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220205162525
+**********************

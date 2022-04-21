@@ -1,0 +1,8 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\bin\Debug\Mileage.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\bin\Debug\Mileage.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\bin\Debug\Mileage.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\obj\Debug\Mileage.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\obj\Debug\Mileage.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\obj\Debug\Mileage.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\obj\Debug\Mileage.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Mileage\obj\Debug\Mileage.csproj.AssemblyReference.cache

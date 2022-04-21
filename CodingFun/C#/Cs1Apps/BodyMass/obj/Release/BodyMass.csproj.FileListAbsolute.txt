@@ -1,0 +1,7 @@
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\bin\Release\BodyMass.exe.config
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\bin\Release\BodyMass.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\bin\Release\BodyMass.pdb
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\obj\Release\BodyMass.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\obj\Release\BodyMass.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\obj\Release\BodyMass.exe
+C:\Users\marti\Documents\University of Washington Tacoma\T INFO 200\Cs1Apps\BodyMass\obj\Release\BodyMass.pdb

@@ -1,0 +1,81 @@
+body {
+	background-image: url(nyancat.png);
+	background-size: cover;
+}
+.ape {
+	width: 700px;
+  	height: 25%;
+  	transition: all 0.75s ease-in-out;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.ape:hover {
+    transform: scale(1.2);
+}
+
+.describe h1 {
+	color: white;
+	padding-top: 60px;
+	font-size: 40px;
+	position: absolute;
+	padding-left: 1000px;
+}
+
+.describe p {
+	color: white;
+	font-family: Times;
+	position: absolute;
+	transform: translate(750px, 80px);
+	font-size: 20px;
+	padding: 25px;
+	padding-top: 75px;
+}
+
+footer {
+	background: black;
+	height: auto;
+	width: 100%;
+	font-family: Times;
+	padding-top: 40px;
+	color: white;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.footer {
+	padding-bottom: 15px;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
+}
+
+.ape4 {
+	width: 700px;
+  	height: 25%;
+  	transition: all 0.75s ease-in-out;
+    animation: fadein 2s;
+}
+
+.ape4:hover {
+    transform: scale(1.2);
+}
+
+.faq h1 {
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	transform: translate(1150px, -420px);
+}
+
+.faq p {
+	color: white;
+	position: absolute;
+	font-family: Times;
+	transform: translate(750px, -300px);
+	font-size: 20px;
+}

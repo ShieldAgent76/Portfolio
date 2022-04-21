@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> CTF </title>
+<style>
+  body {
+    background-color: #0000FF;
+    color: white;}
+</style>
+<script>
+  // Partipant Registration
+
+  function tryHack() {
+    var name; // user's name
+    name = prompt("What's your name?", "");
+    if (name != null) {
+      alert("Welcome to the CTF" +
+        " reservation. Print it.");
+      alert("Admit one to the TryHackMe party: " + name);
+    }
+  } 
+
+</script>
+</head>
+
+<body>
+<h1>CTF</h1>
+<p>
+  TryHackMe Classrooms
+</p>
+<ul>
+  <li>Linux Fundamentals!</li>
+  <li>Incident Response and Forensics!</li>
+  <li>Security Operations & Monitoring!</li>
+</ul>
+<p>Confirm your reservation now by clicking below.</p>
+<input type="button" value="CTF reservation" onclick="tryHack();">
+</body>
+</html>

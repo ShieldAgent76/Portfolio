@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ArtWork</title>
+	<link rel="stylesheet" href="stylesheetNFT.css">
+</head>
+<header>
+	<div class="container">
+		<a href="profile.html">
+			<label class="logo"><img src="NFT-black.png" alt="logo"></label>
+		</a>
+
+		<input class="nav-toggle" type="checkbox" id="nav-toggle">
+		<nav>
+			<ul id="nav-ul">
+				<li><a href="MainPage.html" class="active">Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+			</ul>
+		</nav>
+		<label for="nav-toggle" class="nav-toggle-label">
+			<span></span>
+		</label>
+
+	</div>
+</header>
+<body>
+	<div class="BuySell">
+		<h1>Buy or Sell NFT Artwork</h1>
+			<a href="#buy-from-website">BUY</a>&nbsp;  |  &nbsp;
+			<a href="#sell-from-website">Sell</a>&nbsp;  |  &nbsp;
+			<a href="profile.html">Profile</a> &nbsp;  |  &nbsp;
+			<a href="#view-artwork">Search Artwork</a> &nbsp;  |  &nbsp;
+			<a href="#faq">FAQ</a>
+
+	</div>
+	<br><br>
+	<img src="mainPageTitlePic%201.png" alt="landing page image">
+	<br><br><br><br>
+	<form class="transactionForm">
+		<h1 id="buy-from-website">Buy NFT Artwork</h1>
+			<pre>
+First Name:<input type="text" id="first" size="15">
+
+ Last Name:<input type="text" id="last" size="15">
+
+   Address:<input type="text" id="address" size="15">
+
+      City:<input type="text" id="city" size="15">
+
+     State:<input type="text" id="state" size="15">
+
+  Zip Code:<input type="text" id="zip-code" size="15">
+			</pre>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="center-button" type="button" value="Submit" onclick="postBuyResult();">
+
+	</form>
+	<br><div></div><br>
+	<form class="transactionForm">
+		<h1 id="sell-from-website">Sell NFT Artwork</h1>
+		<pre>
+First Name:<input type="text" id="firstSell" size="15">
+
+ Last Name:<input type="text" id="lastSell" size="15">
+
+   Address:<input type="text" id="addressSell" size="15">
+
+      City:<input type="text" id="citySell" size="15">
+
+     State:<input type="text" id="stateSell" size="15">
+
+  Zip Code:<input type="text" id="zip-codeSell" size="15"> </pre>  
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="center-button" type="button" value="Submit" onclick="">
+			<script type="text/javascript">
+				const sell = new Selling()
+			</script>
+	</form>
+	<form>
+		<h1 id="view-artwork">ArtWork</h1>
+			<div class="row">
+				<div class="colum">
+					An audio speaker that resembles a die
+				<img id="pic" src="placeHolderImage.jpg" alt="" width="300px" height="300px"/>
+				https://mobile.twitter.com/diceclubnft
+				</div>
+				<div = class="column">
+					Greek statue head
+				<img id="pic" src="placeHolderImage1.jpg" alt="" width="300px" height="300px"/>
+				 Ded Pixto/Adobe Stock
+				</div>
+				<div class="column">
+				 City Alley
+				<img id="pic" src="placeHolderImage2.jpg" alt="" width="300px" height="300px"/>
+				Xero Alley by Mad Dog Jones
+				</div>
+				<div class="column">
+					A city that puts Las Vegas to shame
+				<img id="pic" src="placeHolderImage3.jpg" alt="" width="300px" height="300px"/>
+				Source: cdn.wallpaper.com
+				</div>
+				<div class="column">
+					A torsoless robot with a tree inside a globe
+				<img id="pic" src="placeHolderImage4.jpg" alt="" width="300px" height="300px"/>
+				Instagram / Beeple
+				</div>
+				<div class="column">
+					Explosion of colors
+					<img src="placeHolderImage5.jpg" alt="" width="300px" height="300px">
+					https://twitter.com/hellcatnft
+				</div>
+				<div class="column">
+					A horned human skeleton exploding pretty flowers
+					<img src="placeHolderImage6.jpg" alt="" width="300px" height="300px">
+					https://twitter.com/WZwieback
+				</div>
+				<div>
+					Wild cat hiding in ferns
+					<img src="placeHolderImage7.jpg" alt="" width="300px" height="300px">
+					https://twitter.com/WZwieback
+				</div>
+				<div>
+					The first 5000 days 
+					<img src="placeHolderImage8.jpg" alt="" width="300px" height="300px">
+					Instagram / Beeple's
+				</div>
+				<div>
+					The first emoji
+					<img src="placeHolderImage9.jpg" alt="" width="300px" height="300px">
+					Beeples / Christie's
+				</div>
+			</div>
+	</form>
+	<h1 id="faq">FAQ</h1>
+		<details>
+				<summary>What is a NFT</summary>
+					NFT stands for non-fungible token
+		</details>
+		<br>
+		<details>
+			<summary>What does non-fungible mean</summary>
+			A good way of understanding what non-fungible means is to consider the definition of fungible. Fungible means the ability to replace something
+			<br>with something else of equal value. For example if you have $1, the $1 can be replaced with 100<span>&#162</span>. They are both different forms of the same value. <br>One can also exchange a $1 for a $1 because they are equal in value. Therefore non-fungible objects are items that cannot be equally exchanged <br>for something else of equal value. Usually non-fungible items are items that are unique, for example Napoleon's gold laced elephant rifle. Only one<br>exists and it cannot be easily exchanged for an item of equal value. There are replicas of Napoleon's gold laced elephant rifle but only one original<br> item exists making it a non-fungible item. 
+		</details>
+		<br>
+		<details>
+				<summary>How do NFTs work</summary>
+					NFTs allow for a digital image to be purchased and for the purchaser to have a digital certificate of owership of the digital artwork.
+					<br>A record of who bought the digital image is kept in what is called a blockchain. 
+		</details>
+		<br>
+		<details>
+			<summary>What is a blockchain</summary>
+				Blockchain technology is defined as a type of Distributed Ledger that keeps a record of transactions of chronological ownership. Blockchains work<br> by allowing the same record to be kept in many different places. If a block of data is altered the adjacent blocks will not allow a sale to proceed because<br> a neighboring block was altered. Since the record of who bought the NFT artwork is kept on blockchains it makes it extremely unlikely that the record<br> will be altered in anyway. Meaning until the owner is ready to sell the artwork, a record of their ownership will remain in place. No institution or person<br> has control over the blockchain, but everybody has a record of the chronological record of ownership making altering ownership records very difficult. Others <br>may possess the digital art that one owns but the blockchain proves ownership. 
+		</details>
+		<br>
+		<details>
+			<summary>What can be an NFT</summary>
+			Currently NFTs are popular with artwork, memes, videos and music. 
+		</details>
+		<br>
+		<details>
+			<summary>How is NFT artwork purchased</summary>
+			NFT artwork is typically purchased with cryptocurrency, credit/debit cards or wire transfers
+		</details>
+		<br>
+		<details>
+			<summary>Can I return NFT artword</summary>
+			The answer is usually always no. You can sell your NFT artwork however some NFT's can require up to a 10% royalty fee to the artist for every 
+			<br> sale of the artwork they created even after they give up ownership.
+		</details>
+		<br>
+		<details>
+			<summary>What is the value of NFT artwork</summary>
+			The price of NFT artwork is determined by what people are willing to pay for it. 
+		</details>
+		<br>
+		<details>
+			<summary>Do I have to pay taxes on NFTs</summary>
+			Maybe, as with all tax laws the process can be complex. One who purchases NFTs may have to pay capital gains and others taxes<br> determined by the IRS. Typically NFTs are taxed by the IRS as a collectible. The amount paid usually is determined by ones taxable<br> income and how much ones net capital gain is for the year. Generally, one will not pay less than 20% tax and nothing higher than 28%. 
+		</details>
+		<br>
+		<details>
+			<summary>Who can create NFTs</summary>
+			ANYONE! Anyone can create and sell NFTs. Anyone interested in selling NFTs can create their own digital art and place the<br> NFT on a blockchain and start selling their work. 
+		</details>
+		<br>
+		<details>
+			<summary>Are there any risks to buying an NFT</summary>
+				Yes, as with most things in life there can be risks. Typically the risks are stolen artwork that is sold because the creater of the NFT is not required to prove<br> that they are the originating artist. So in other words, the art is the creature and the seller does not have to prove that they are the creator. The other risk is<br> the devaluing of the NFT from what was originally paid. The valuation could increase or it could decrease. 
+		</details>
+</body>
+</html>

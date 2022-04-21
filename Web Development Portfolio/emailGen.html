@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Generator</title>
+        <script src = "emailGen.js"></script>
+    </head>
+
+    <body>
+        <h2>
+            Enter first and last name then click button below
+        </h2>
+        <form>
+            First Name:
+            <input type = "text" id = "first" size = "20" autofocus>
+            <br>
+            <br>
+            Last Name:
+            <input type = "text" id = "last" size = "20">
+            <br>
+            <br>
+            <input type = "button" value = "Generate Email" onclick = "generateEmail(this.form);">
+        </form>
+        <p id = "email"></p>
+    </body>
+</html>

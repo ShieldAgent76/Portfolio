@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> CTF </title>
+<style>
+  body {background-color: #800080;
+    color: white;}
+</style>
+<script>
+  // Direct participants to CTF
+
+  function tryHack() {
+    if (confirm("Are you ready?")) {
+      window.location.assign(
+        "https://tryhackme.com/");
+    }
+  } // end tryHack
+
+</script>
+</head>
+
+<body>
+<h1>CTF</h1>
+<p>
+  TryHackMe Classrooms
+</p>
+<ul>
+  <li>Linux Fundamentals!</li>
+  <li>Incident Response and Forensics!</li>
+  <li>Security Operations & Monitoring!</li>
+</ul>
+<p>Confirm your reservation now by clicking below.</p>
+<input type="button" value="CTF reservation" onclick="tryHack();">
+</body>
+</html>
